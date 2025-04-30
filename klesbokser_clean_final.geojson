@@ -1,0 +1,9261 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Stranda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.945996,
+          62.3071546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Stranda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9184685,
+          62.311451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Hellesylt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8694645,
+          62.0844049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Ikornnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5552491,
+          62.38572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Sykkylven"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5826935,
+          62.3913738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Sjøholt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8134654,
+          62.4828738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema Digernes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6056263,
+          62.4920649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Fiskarstrand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2732685,
+          62.4404376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema Brattvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4379668,
+          62.6054081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema Valderøy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1165416,
+          62.5284075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Valderøy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1279678,
+          62.5089578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Valderøy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1300492,
+          62.4989149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Volda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.082145,
+          62.1444346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Volda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0746348,
+          62.1455074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema Ørsta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1224318,
+          62.1906291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Vatne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.616838,
+          62.5605508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kleskontainer M27 Bunnpris Vatne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5931273,
+          62.5452304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Flisnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4135909,
+          62.4319879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Ørsta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1272383,
+          62.1992221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Søvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2785685,
+          62.5482625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mx sport Skodje"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6968536,
+          62.5031455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Hundeidvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4261866,
+          62.3750262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valldal Bunnpris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2565717,
+          62.2974091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Esso Stranda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9226313,
+          62.3073927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostelager Stranda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9484234,
+          62.3102595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Fosnavåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.634495,
+          62.3291984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Fosnavåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6371772,
+          62.3256807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klescontainer M35 Rema Fosnavåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6389368,
+          62.3252571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Moltustranda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6333148,
+          62.2939923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Larsnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5720747,
+          62.2062317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Grodås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5257394,
+          61.9691089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Vigra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0699731,
+          62.5580441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Hareid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0278517,
+          62.3707252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema Ulsteinvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8531594,
+          62.3380857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elkjøp Volda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0434246,
+          62.1724743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema/Ford"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1986842,
+          62.7407981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Nordbyen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2355887,
+          62.7525831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Gourmet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1991026,
+          62.7446406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Isfjorden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7934211,
+          62.5779941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Tresfjord"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1274447,
+          62.5224777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kai Vikebukt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1455657,
+          62.6141987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shell Molde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1933305,
+          62.7395548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shell Åndalsnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6810473,
+          62.558452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amfi Ørsta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1249048,
+          62.1993972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Esso Nordførdeid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9800869,
+          61.9120559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gsport/Rema"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1479423,
+          61.9259568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Innvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6140914,
+          61.8513636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Utvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5182722,
+          61.8068064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Olden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8051344,
+          61.8349589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klescontainer M68 Coop Fiskå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5580065,
+          62.0984093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Syvde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7384333,
+          62.0893935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Best Sandane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2326437,
+          61.770106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sandane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2189913,
+          61.7757259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bano AS Sandane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2006825,
+          61.7828083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Åheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5288535,
+          62.0371828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Skei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.482057,
+          61.5704075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Copp Marked"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1119282,
+          61.4923675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8973622,
+          61.4379211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Best/Extra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7176113,
+          61.5077947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4610473,
+          61.5889738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0265803,
+          62.1197607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7568628,
+          62.1787191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Prix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4479795,
+          62.9166399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop prix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1627748,
+          62.9741811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4971101,
+          62.586653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tjørvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7339567,
+          62.2886021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nærbutikken Eidså"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6732342,
+          62.1202674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Måløy "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1120168,
+          61.9298342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Førde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8727878,
+          61.4497041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reed Coop Marked"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4094496,
+          61.7373685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Loen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8474382,
+          61.8714029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Spjelkavik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3623339,
+          62.4627669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Løkkemyra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.784307,
+          63.1087326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plantasjen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7910608,
+          63.1108434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cirkle K Viadukten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7290857,
+          63.1231522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Lepsøya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2052584,
+          62.6104553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Fiskå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5561584,
+          62.1002656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stryn Sentrum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7171633,
+          61.9036466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Ålfoten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6742775,
+          61.836887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Davik "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5416477,
+          61.8881306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Langøyneset"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4997461,
+          63.0638013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eurospar Krokane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0644505,
+          61.5991305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brattvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4440715,
+          62.6007724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hørundvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0653812,
+          62.3483969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Prix Frei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7858949,
+          63.0383376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Batnfjord"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6797277,
+          62.8938928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sæbø brannstasjon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4757189,
+          62.2085492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Barstadvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2665844,
+          62.3598294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elnesvågen Bunnpris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1731281,
+          62.8548861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Øydegard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9755914,
+          63.0110453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Eidsvågen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0632567,
+          62.7753674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leikanger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3172326,
+          62.1196353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flatraket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2276254,
+          61.9762651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MIX Måløy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1143664,
+          61.9348495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.123392,
+          62.5808141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bedehusvegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0495025,
+          62.5039727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Eidsnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.316731,
+          62.4277521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Europris/ Coop Extra Dale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3976345,
+          61.3583268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Sande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7959318,
+          61.3262176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Extra Sogndal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1050429,
+          61.2315344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leikanger "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7980373,
+          61.1829124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunker Oil Godøy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0416812,
+          62.4830969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Lauvstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9435499,
+          62.1642695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ulsteinvik Lampehuset"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8515555,
+          62.3416369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Dimna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8445334,
+          62.3159599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Felleskjøpet Sunndalsøra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5656452,
+          62.6759557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aas Mek. Verksted Vestnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0791006,
+          62.6337499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kleive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6509476,
+          62.7981524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pyramiden Gaupne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2953832,
+          61.403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "YX Averøy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4314141,
+          63.0093995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dahlehallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7912378,
+          63.1226393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Prix Midsund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6733146,
+          62.6743108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hjelle Skule"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0798812,
+          61.9189276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Bremanger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9384028,
+          61.8377124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Kalvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8794907,
+          61.7669544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Torvikbukt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8568661,
+          62.942937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "YX Dale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.402146,
+          61.3641786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kristiansund Sykehus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7226269,
+          63.1086137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bremanger Brannstasjon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9916929,
+          61.8386099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scandic Parken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1572522,
+          62.4740601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Førde Liavegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8315582,
+          61.4514631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Førde Utstillingsplasen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8644678,
+          61.4532131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bigset Barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9614419,
+          62.3555441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Straumgjerde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.595133,
+          62.332887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Slinningen Barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1501387,
+          62.4580113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bergmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2243066,
+          62.7464009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elkjøp Kaupanger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2226001,
+          61.1943865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Aukra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8905206,
+          62.8054819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rugsund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3130237,
+          61.8717361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sogn Treningssenter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0840955,
+          61.2294081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Extra Bruhagen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6339586,
+          63.052128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Bådalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5664757,
+          63.0086434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Hjelledalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1691922,
+          61.9189214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Skjåk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2633647,
+          61.8850371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Otta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5390166,
+          61.7717662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brannstasjon Godøy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0390205,
+          62.475507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gausdal Landhandleri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5766298,
+          61.8409498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "YX Vågå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1027868,
+          61.8695263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Dombås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1229292,
+          62.0707673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Dovre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2487858,
+          61.9869994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Sunndalsøra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.564736,
+          62.6731708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunndalsøra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5706115,
+          62.6716597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Bjorli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2079582,
+          62.259072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Lesjaverk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.535952,
+          62.1933006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Lesja"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8608476,
+          62.1182116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Bruvoll"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0932007,
+          61.9144007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karihola Barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7097504,
+          63.1249909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valldal Sentrum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2608165,
+          62.2975731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Valldal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2645497,
+          62.2981669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Leikong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7817005,
+          62.2477149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Gjerdsvika"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5847295,
+          62.2582081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nerøyvalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6827521,
+          62.3393971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ulsteinvik Sentrum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8452676,
+          62.3433255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Eresfjord"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1191702,
+          62.6797592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ålvundfjord"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.520203,
+          62.851761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Kyrkjebø"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.936255,
+          61.1646056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Høyanger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0927761,
+          61.2272481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Hylkje"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3475458,
+          60.5088699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Eidsvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.32338,
+          60.439026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Extra Nyborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3360352,
+          60.4740283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meny Industriveien "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4501898,
+          60.204701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jysk Nesttunn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3719852,
+          60.3214618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Extra Fana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3372858,
+          60.2576926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Bønes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3016101,
+          60.3332202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Sørås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3177316,
+          60.2972851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Godvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1921191,
+          60.369875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eurospar Isdalstø"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2708267,
+          60.5558446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Extra Lone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4576425,
+          60.3742824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Morgnstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0097521,
+          60.7976708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Austrheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9156825,
+          60.7649568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Matkroken Hjelmås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3642617,
+          60.5924136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Hanøy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0915513,
+          60.4494415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Sagvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3964241,
+          59.7797115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fitjar kommune"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3175624,
+          59.9188686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Fitjar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.326043,
+          59.9195178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Haus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4959508,
+          60.4527853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stordal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9872505,
+          62.3821715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Strushamnsveien 53"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1907181,
+          60.4055397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Askvoll"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0607057,
+          61.3465955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Lavik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5125039,
+          61.1032388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Haugsvær"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5191865,
+          60.8968604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fyllingsdalen "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.27859,
+          60.3495805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amfi Voss"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4343705,
+          60.6291556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Extra Skulestadsmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4362004,
+          60.65516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Skulestadsmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4367093,
+          60.6596431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Ålvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4317754,
+          60.4305009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Esso Norheimsund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1440321,
+          60.3725223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aksdal Senter/ Meny"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4435287,
+          59.4224467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Extra Tysnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5225343,
+          60.0425165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Tysnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.521931,
+          60.0434328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Sagvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3931613,
+          59.7748435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Ølve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8056529,
+          60.0099985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Hatlestrand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9144135,
+          60.060864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Extra Førde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8876088,
+          61.4487144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Morvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2651435,
+          60.4745824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Extra Haukedalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2946952,
+          60.4632973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Extra Alpetun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3464258,
+          60.2976784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Haga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5187838,
+          59.8033261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Kjøtteinsvegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4955719,
+          59.7731888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Extra Karmsundgata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2893839,
+          59.4027304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Vossestrand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5094967,
+          60.7921414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Årim Moa nord"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3516092,
+          62.4678919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Hundvin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2293987,
+          60.6843341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema Stokkenes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0025296,
+          61.9103059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cirkle K Moa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3482882,
+          62.464781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Årim Aksla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1877119,
+          62.474156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Stokke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3957773,
+          62.5045301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bingsa Miljøpark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3857338,
+          62.4812168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Elnesvågen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1668367,
+          62.8542957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arefjordvegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1507321,
+          60.3676911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sund kommune"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0727199,
+          60.2715383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NGIR Kjevikdalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2578497,
+          60.6501136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NGIR Mjåtveit ( Frekhaug )"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2081842,
+          60.5163921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dalekvam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8193549,
+          60.5902154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Ågotnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9991628,
+          60.4037267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Buena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.385061,
+          60.2186341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lysekloster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3866971,
+          60.2098408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eikelandsosen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7491193,
+          60.2404505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bjørnafjorden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3819471,
+          60.2223953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Skåredalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3284332,
+          59.4091555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Montana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.367686,
+          60.3703181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Knarvik Senter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2852802,
+          60.5484562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Ulset"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3046504,
+          60.4635774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nesttunvegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3506033,
+          60.3217192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vestre Borettslag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.224885,
+          60.3626838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vadmyra borettslag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2307214,
+          60.3605942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Søvikdalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2924506,
+          60.3116897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Halhjemsmarka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4384309,
+          60.1443063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skogsvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0650142,
+          60.2454123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fjell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0777375,
+          60.3349543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Gåseid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.265585,
+          62.4640128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Hollingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9927719,
+          62.7796412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cecilienfryd fotballbane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1344286,
+          62.7402284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Åndalsnes brannstasjon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6786628,
+          62.5603772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Langevåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1939888,
+          62.4419589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stranda Storgata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9375317,
+          62.3087717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Måndalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4421388,
+          62.5342941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Svingen, E136"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6753442,
+          62.5526667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8747247,
+          61.766766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Skogsvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0703055,
+          60.2700749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7647117,
+          60.3795446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tysse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.765895,
+          60.3926985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sandslivegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2804239,
+          60.309248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barliveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2785622,
+          60.3523305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sikthaugen terrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3006048,
+          60.3592605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Janaveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1840679,
+          60.3683952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rådalslien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.325741,
+          60.2927096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dag Hammarskjölds vei 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2927429,
+          60.3552429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mittet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6955005,
+          62.7001077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Husnes Storsenter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7573082,
+          59.8614106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Vie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8907607,
+          61.4589575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Extra Tingvoll"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2074197,
+          62.9098108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bjørndalsskogen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2423023,
+          60.345531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kråkenesdalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3164161,
+          60.3348414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gullstølstien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3107451,
+          60.3365509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kravkåsslia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3710065,
+          60.4599316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kidsa Breistein"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3845859,
+          60.4914227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nordgardsleitet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2628076,
+          60.4927403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Heiane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.445154,
+          59.7627891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fitjar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3229969,
+          59.8461412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bømlo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2095621,
+          59.7959016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Husnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7727422,
+          59.8767577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frekhaug"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2402725,
+          60.5193925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sandbrogaten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3220229,
+          60.4000572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austevoll SIM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2438016,
+          60.0727617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tysnes SIM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5078227,
+          60.0191434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Extra Ulset"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3163164,
+          60.462898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema 1000 Toppe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2683161,
+          60.4867069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amalie skrams vei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3218772,
+          60.4149506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aurdalslia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.281595,
+          60.3066305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Breiviken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2997773,
+          60.421591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bjørgelien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2510754,
+          60.3370801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mulesvingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3305859,
+          60.4049216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vindharpevegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3095268,
+          60.2995472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sveio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3664356,
+          59.5491454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Os Rådhus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4684013,
+          60.1849326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Olavs vei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3526028,
+          60.3722624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lægdesvingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.372961,
+          60.3673713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mannsverk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3681591,
+          60.3540619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nordre Nattlandsfjellet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3728977,
+          60.3487411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trolldalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2914466,
+          60.4431631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karlsmarka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2790982,
+          60.3135308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fossane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3493886,
+          60.4625107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S01 Kiwi Hundvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7421872,
+          59.0010188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S03 Bryggen Senter Hommersåk "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8487046,
+          58.9295658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S04 Rema Hundvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7287687,
+          58.9932622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S05 Rema Tasta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6854915,
+          58.983402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S06 Meny Stokka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7018985,
+          58.9640952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S07 Rema Kvernevik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6118324,
+          58.9653927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S08 Extra Madla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6558768,
+          58.9518469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S09 Tjensvoll"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6977003,
+          58.9502803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S10 Boganesveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7246523,
+          58.9182117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elvebakken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.346049,
+          60.3587722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Starefossen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.352648,
+          60.389172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trollbodalmeningen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3091802,
+          60.3994314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S11 Stavanger Stadion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7142771,
+          58.9660633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S12 Rema 1000 Dusavik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6819864,
+          58.99486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S13 Lassa Idretspark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6909561,
+          58.9573397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S14 Extra Tasta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6932324,
+          58.9882235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nøstegaten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.315049,
+          60.3923903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "− Nedre nøttveit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3438369,
+          60.2983896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S15 Coop prix Grødem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6506731,
+          59.0083111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S16 Viste Hageby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.618854,
+          58.9824693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S17 Esso Bekkefaret "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7235796,
+          58.9514092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ole Irgens´vei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.339584,
+          60.3927114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krokeidevegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3455495,
+          60.2626015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Knappenveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2688377,
+          60.322112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Helleveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2945202,
+          60.4280853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ulsmåg skole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3764492,
+          60.3154042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S02 Level Up"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8566378,
+          58.9300926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Stryn\n"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7206563,
+          61.9029267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meisingset Matkrokken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2893202,
+          62.8516613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hessavegen\n"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.151986,
+          62.4595836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S18 Rema Hillevåg\n"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7419686,
+          58.9475108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Breimyra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3663251,
+          60.4610516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Møllendalsveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3494486,
+          60.3784405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tertnes bedehus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2889451,
+          60.4569596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trengereid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6249887,
+          60.4256913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nærbutikken Vågstranda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2944298,
+          62.6063152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mc Donalds "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3061485,
+          59.3792126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Best Byrkjelo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5064639,
+          61.7322243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leirvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5090977,
+          59.7790096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S19 Esso Hillevåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7418775,
+          58.9489318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nippedalen\n"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2645199,
+          60.3669927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S20 Rema Ganddal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7132589,
+          58.8252105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Eidsvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6808743,
+          59.7905376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi/Spar Kjøp Heiane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4560421,
+          59.7614302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Traneveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3501938,
+          60.303022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Point S21 Esso Revheimsveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6304866,
+          58.9609463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garnestangen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4620564,
+          60.446692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Utløbakken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4724945,
+          60.4247595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ågotnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9880124,
+          60.406687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BIR Salhus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3094032,
+          60.4805062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BIR Møllendalsveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3450856,
+          60.3794098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema Solvang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2798282,
+          59.4201091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Extra Eidsvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3196566,
+          60.4368489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Steinsvikvegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1140438,
+          60.3487096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Foldnes Skole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1175199,
+          60.3661895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vestsidevegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0061658,
+          60.3264604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Steinsland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1068125,
+          60.1926309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Finnås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2326506,
+          59.7397457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S22 Oalsgate 30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7272895,
+          58.8516953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BIR Espehaugen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2331332,
+          60.2783589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nedrestrandgate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1363328,
+          62.4707113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SSR Ulsteinvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8866345,
+          62.3365615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S23 Hetlandsbanen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7325472,
+          58.9355871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meieritomta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1466888,
+          60.3687716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fonnes Senter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.993173,
+          60.8033298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Svelgen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2851984,
+          61.7653053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Extra Digernes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6066749,
+          62.4926157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S24 Klepp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6304449,
+          58.7738106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norheimsund - Rema"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1587132,
+          60.3702919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Storteigen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2008308,
+          60.3790443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kvammabygg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1987203,
+          60.3875083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Strandebarm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0115527,
+          60.2613304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tørvikbygd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1696927,
+          60.3016487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vikøy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1794155,
+          60.3483404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0836815,
+          60.8476764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3392706,
+          60.3451605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KK Senter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2427421,
+          60.0867644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Matkrokken Bekkjarvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1946651,
+          60.0095419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mjølstadneset"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6746765,
+          62.3236864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Circle K Brattvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.451524,
+          62.5850165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Odda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5507822,
+          60.0629498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Skåla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4238943,
+          62.7018187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Skjelvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.535549,
+          62.7882084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meny Ramnanger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1514093,
+          60.4592018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fanatorget"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2836389,
+          60.3051899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kidsa Ladegården Barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3248949,
+          60.4012387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Hareid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0280289,
+          62.3720465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S25 Heddeveien FUS barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7220565,
+          58.9009072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Håkonshella FUS barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.187325,
+          60.3444072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema Kleppestø"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2210921,
+          60.4062835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Copp Longva\n"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2705938,
+          62.6717917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Austnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2686819,
+          62.6409491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KIWI Skåredalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3181439,
+          59.4103466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S26 Espira Ree barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6425326,
+          58.7271852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bømlo bussterminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1788048,
+          59.7941011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Frakkagjerd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.40385,
+          59.4168415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S28 Eivindsholen FUS barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6638237,
+          58.7275607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Espira Solkroken "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.317346,
+          59.4868551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S29 Åmøyveien "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6742124,
+          59.0557718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vegsund Barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3515293,
+          62.4351961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norlandia Bjørkavåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3027255,
+          62.4254629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BIR Askøy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1431414,
+          60.4727737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BIR Os"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4462082,
+          60.2004133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BIR Osterøy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4713807,
+          60.5042284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kidsa Myrdal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3127893,
+          60.4713195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Steinsviken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3031827,
+          60.3011237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fana Arena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3577604,
+          60.3082098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gneist Idrettslag klubbhus "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2436372,
+          60.2848785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Øyjordsveien "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3023387,
+          60.429149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nyhavnsveien "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3091156,
+          60.4188593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Læringsverkstedet Maurtua AS Barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2249862,
+          60.5104518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sauafjellet FUS barnehage as"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0873966,
+          60.264309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bjorøy barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1745586,
+          60.320337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krokkusbakken Læringsverkstedet Barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.26344,
+          60.2540742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REIGSTADVEGEN 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4315875,
+          60.5055666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BIR Raunekleivvegen 88, 5652 Årland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.699068,
+          60.3954105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Seimstrand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2777734,
+          60.6121601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Uskedalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8597278,
+          59.9315178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Prix Jondal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25261,
+          60.2770142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nærbutikken Tyssedal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5597101,
+          60.1161877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema Wergeland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3509633,
+          60.360257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Birkelundstoppen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3637232,
+          60.3450957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S30 Erlevegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7124851,
+          58.7918699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Storfjord kulturhus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9456987,
+          62.3076843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S31 Rossåsen / Småkjelvene"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8225011,
+          58.7811254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nymarkbakken FUS Barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1974246,
+          62.4427662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lande FUS barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8471572,
+          62.4839052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S32 Tjønnvegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6772151,
+          58.7783773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "YX 7Eleven Langevåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1944127,
+          62.4404186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Mega Volda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0711483,
+          62.1431402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Gursken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6501265,
+          62.2161345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norlandia Støylane barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8757004,
+          62.3419718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S33 Foren"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7150408,
+          58.8467753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Vevang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.294084,
+          63.0033101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leikanger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3235689,
+          62.1170537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S34 Tau Aktivitetshus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9290397,
+          59.0646353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S235 Rådhusgaten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0432873,
+          59.0226179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S37 Nesjane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0806225,
+          58.6306922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rørstadmarka barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.271169,
+          62.4302895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Devoldfabrikken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1895878,
+          62.4404033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Verona pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8447135,
+          62.3443289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S39 Egersund, v/Dekkbutikken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9965907,
+          58.4771129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S40 Spar Eigerøy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9750207,
+          58.452094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S41 Flassabekken barnehage Ålgård"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8632163,
+          58.7714724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vasset Barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2109291,
+          62.4378193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plantasjen Ålesund "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3687648,
+          62.4714869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S42 Kiwi Nærbø"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.64474,
+          58.667961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S43 Coop Prix Hellvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8726368,
+          58.4809424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Granvin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.721121,
+          60.5246586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FV208 / Søre Øyavegen "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9819095,
+          60.3427484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laksevåghallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2715967,
+          60.3830769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vadmyrahallen "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2294445,
+          60.3567885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hordnesvegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3220465,
+          60.2724928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Landåshallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3680633,
+          60.3637228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bøneshallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2955301,
+          60.3333792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bjørnarhallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4631527,
+          60.4428065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BIR Vaksdal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7991857,
+          60.584317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Stanghelle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7391954,
+          60.5519281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NGIR Manger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0532723,
+          60.6416694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stanghelle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7380234,
+          60.5507668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Øygarden Kulturhus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9041387,
+          60.5163409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S44 Gardsvegen 10b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7367902,
+          58.5580283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S45 Ogna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8042548,
+          58.5194198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S46 Slettebø, 4373 Egersund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0254983,
+          58.4720947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S47 Coop Marked Ualand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.335621,
+          58.5316272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S48 Coop Prix Sira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6606348,
+          58.4163289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S49 Nygårdsidå 4, 4364 Sirevåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.800489,
+          58.5035491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Sæbøvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7081383,
+          59.7938008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S51 Rauli barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6748085,
+          58.2844751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S52 Coop Marked Feda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8172499,
+          58.2693058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S53 Pytten Miljøstasjon Hå kommune"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6501461,
+          58.6754032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S54 Kiwi Egersund "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0015055,
+          58.4515872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt 179 NGIR Litlås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0160187,
+          60.7996271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S55 Matkroken Ulvegjelet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4475289,
+          58.0355506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S56 Torjusheia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4500377,
+          58.0285103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S57 Smibakken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3011202,
+          58.0848173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S58 Kallhammerveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4365719,
+          58.0257959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S59 Mandal Tennisanlegg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4350581,
+          58.0287793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S60 REMA 1000 SØGNE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.811615,
+          58.0976863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt 215 NAV Sveio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3561412,
+          59.5432378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt 216 Kaland Idrettshall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4057227,
+          60.279543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S62 Mortensarmen, Røyneberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6766202,
+          58.9119653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S63 Tjørsvågstrand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6472829,
+          58.2954133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marihøna Barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1521783,
+          60.3825598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skudeneshavn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2675807,
+          59.1468251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nylundsbakken 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2562455,
+          59.1514365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REMA 1000 Manger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0440668,
+          60.6409413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Florvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2383541,
+          60.4198192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KIWI Stangeland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3116713,
+          59.2781707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Presthaug FUS barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2906131,
+          59.4180175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amanda Barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3095015,
+          59.392234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Steinhaugane FUS friluftsbarnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3702367,
+          59.3934341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tjernagelvegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3395042,
+          59.5392439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rubbestadneset Idrettslag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2632514,
+          59.8174109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nordbygdene Bondegårdsbarnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2837686,
+          59.4687421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S64 Sola Taxi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6449813,
+          58.8858353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S65 Betania Bedehus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5996184,
+          58.9351384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S66 IRS Miljø IKS "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.887535,
+          58.2785212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S67 IRS Miljø IKS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6525566,
+          58.2463332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S27 IRS Miljø IKS - Malåna Gjenvinningsstasjon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5513813,
+          58.4472496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BIR Gjenvinningsstasjon Heiane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7632853,
+          60.2408114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bir Avd Kvam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1260402,
+          60.3673098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Slågstemmen Barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2458484,
+          59.1495272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karmøyhallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2875109,
+          59.2804648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spar Valen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7839283,
+          59.8319237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S68 Extra Tjelta "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5973799,
+          58.8419224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S69 Forusparken 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7358495,
+          58.8906492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S71 Esso Forus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7255922,
+          58.8817948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S70 Aanen O. Bergsager gate, Lyngdal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0682497,
+          58.1390539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S72 Esso Tjernvollkrysset"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7006623,
+          58.9574749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S73 Coop Marked Voll"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.605025,
+          58.8055402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S74 Idrettsvegen 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6329403,
+          58.7766036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S75 Kjengaren 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.623068,
+          58.7737476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S76 Vikevågveien 131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6964021,
+          59.0970686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oasen Storsenter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3055904,
+          59.3776731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S77 Dronning Mauds gate 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6633843,
+          58.7307547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S78 Sandtangen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6511585,
+          58.7362696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S79 Kiwi Ålgård"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8607047,
+          58.7673514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S80 Varhaugvegen 7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6447995,
+          58.6145678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S81 Sentrumslunden 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6894674,
+          58.5709178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S83 Brusand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7482287,
+          58.5402965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S84 Nærbutikken Tonstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7164422,
+          58.6661423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S85 Extra Tonstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7167616,
+          58.664451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S86 \"IRS Miljø IKS - Tonstad Gjenvinningsstasjon\nv/ASVO Sirdal\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7248386,
+          58.673682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REMA 1000 Skudeneshavn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2371446,
+          59.1572172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parkeringsplass Nordbyen Kirke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2263808,
+          62.7549771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Stolmen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0807576,
+          59.9880101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Extra Austevoll"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2244293,
+          60.0997702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Storestraumen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4552401,
+          60.2261907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S36 Europris Farsund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7702302,
+          58.098186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S50 Joker Borhaug"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5847065,
+          58.0991983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Freitorget"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8405102,
+          63.0931242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skåthaugen barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3624986,
+          62.450382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt М159 Sula Frikirke "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2247802,
+          62.442971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hafslo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2049875,
+          61.3157862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Extra Os"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4679546,
+          60.1863444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parkering Prestegardsskogen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5115323,
+          59.8028249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Førde / Sveio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4700278,
+          59.6132064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Torvhaugan / Solduggsvingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7810742,
+          63.1197807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S87 Riska stadion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8417112,
+          58.9193635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S88 Hana Kirke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7578165,
+          58.8634046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nærbutikken Holmefjord"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6671023,
+          60.2898426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dalavegen 23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0939925,
+          61.2336382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S90 Amaldus Nielsens gate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4562763,
+          58.0297371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S89 Snarkjøp Skjebstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4237712,
+          58.0338525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REMA Kuven Stasjon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4645198,
+          60.192161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Espira Skåredalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3245145,
+          59.4119609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S91 Cirkle K Klepp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6315362,
+          58.7763602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S92 Håbet FUS barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7529768,
+          58.8254279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S93 Olaf Isaachsens gate 50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4275639,
+          58.0282659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S94 Esso Voll"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6007095,
+          58.8017331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Best Eikangervåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3910771,
+          60.5964493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Godvik barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2044874,
+          60.3767444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Omastrand "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9685736,
+          60.2152713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S95 Lundegård barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7239585,
+          58.8260303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Birkeland Sokn Osveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3593953,
+          60.3132694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vestre Sælemyr Borettslag "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2927754,
+          60.3472782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thormøhlens gate 30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3244655,
+          60.3830613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wallemsvikveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2627905,
+          60.3872194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Odins vei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3470998,
+          60.3113993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ulvedalen borettslag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3598699,
+          60.4650185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S96 DIM - Rekeland avfallsstasjon (Sokndal)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2687419,
+          58.356205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S97 KIWI Sokndal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2844756,
+          58.3421676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S98 Kiwi Spangereid "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1442011,
+          58.0437652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S99 AVE Systemer Nærbø"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6058623,
+          58.6994052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S100 Tu Skole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6412535,
+          58.7462743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Persson Elektro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2651686,
+          59.4232687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blekenberg / solheimslien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3291588,
+          60.3756034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sundts veg 136-140"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3365977,
+          60.3164344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Conrad Mohrs Veg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.342806,
+          60.3557135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tjønnveien Borettslag "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.223364,
+          60.3669864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Strønevegen Hagavik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3947301,
+          60.1840877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nordås Barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3090187,
+          60.3047599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Osterøy hallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.505106,
+          60.5232242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Fotlandsvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5253094,
+          60.5917484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skolevegen 8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1209595,
+          62.7357279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S101 Spangereid tennisbane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1355464,
+          58.0475377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Balestrand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5315416,
+          61.2038816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Fiksdal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8527899,
+          62.6188968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hestaberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4771759,
+          59.4251004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elingsøy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1870003,
+          62.490892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Marked Vegsund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3581538,
+          62.4355821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lindås Senter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1594204,
+          60.7397425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Noramix Nyborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3446894,
+          60.465659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kilen ved Vegkryss"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8538825,
+          60.2028487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema Avaldsnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2788562,
+          59.3537726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S16 Agder Olje Kvinesdal "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8950548,
+          58.2799263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema Ostereidet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.47286,
+          60.6262143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S102 Kvinesdal Bobilparkerring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9593525,
+          58.3147133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S103 Kvinesdal Stadion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9579501,
+          58.3085322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S104 Industrigata 14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9675932,
+          58.3231576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Steinestøveien "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3181039,
+          60.52299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mekvorpvegen 11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0996622,
+          62.7359669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biltema Førde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8857525,
+          61.4494166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Etne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9384965,
+          59.6642246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Europris Ølensvåg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7407223,
+          59.5964522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joker Vats"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6883304,
+          59.5306709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Isvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5776269,
+          59.5007266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salhus fotballbane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2643495,
+          60.5006601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kanalveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3437509,
+          60.3593359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Florø Næringsbygg "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0458584,
+          61.6007883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O02 Kiwi Refsnes "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6194809,
+          59.4424816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O03 Bjerget"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6711701,
+          59.4364699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O04 Liertoppen kjøpesenter "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3073204,
+          59.811874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O05 Mjelløs Stadion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.66881,
+          59.4209733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O06 Nedre torg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6653966,
+          59.4368387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O07 Skiptvet kommune "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1608351,
+          59.4784725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S38 Espira Sandtoppen "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7672092,
+          58.8705351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O08 KIWI Nybruveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.029875,
+          59.75562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O09 Gerd T. Martinsen Barneutstyr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0574411,
+          59.76084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O10 KIWI Skoppum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4051658,
+          59.3852884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O11 Henrich Gerners gate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6629673,
+          59.4376811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O13 Kolbotn kjøpesenter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7980877,
+          59.8102676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O12 Parkeringsplass Våler Ungdomskole "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8035316,
+          59.4607864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O14 Rema 1000 Korsegården "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1789107,
+          59.5859794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O15 Spydberg Stadion parkering"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.081015,
+          59.6175311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O16 Rema 1000 Thorøya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2236836,
+          59.1029134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O17 Rema 1000 Svarstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9564836,
+          59.402334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O18 SPAR Svarstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9630475,
+          59.4012264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O19 Kiwi Vestskogen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3915558,
+          59.2405487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O20 Stovner senter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9244617,
+          59.9623761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O21 Kiwi Bølerlia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8475175,
+          59.8776069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O22 Herkules kjøpesenter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6004442,
+          59.1969747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O23 IFORM treningsenter Porsgrunn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6526971,
+          59.1161025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O24 Joker Abildsø"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8145981,
+          59.8884419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O25 Grøstad Bilverksted "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4064745,
+          59.3216984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O26 Parkeringsplass Askimhallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1582546,
+          59.5877341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O27 Stop Tune Kjøpesenter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0862957,
+          59.2871794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O28 Esso Råde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8659686,
+          59.3538301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O29 Storbyen Kjøpesenter "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.108273,
+          59.2832729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O30 Læringsverkstedet Askim Solkollen barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.177033,
+          59.5905053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O31 Parkeringsplass Høglivegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3311332,
+          59.5546661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O32 Hunnbakken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0690443,
+          59.2177517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O33 Borge ungdomskole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0110192,
+          59.2309854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O34 Lundheimveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9796027,
+          59.2152382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O36 Blåveisåsen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9393924,
+          59.1851341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O35 Gamlebyveien/Torsnesveien - P-plass"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9611007,
+          59.2016709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O37 Lagnøyåsen Barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8997664,
+          59.1892088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O38 Peer Gynt Matkroken "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2726329,
+          59.5657081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O39 Rema 1000 Notodden "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2576825,
+          59.55804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O37 Søsterdalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9262828,
+          58.6264525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O40 Coop Extra Tvedestrand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.928242,
+          58.6267336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O41 Solberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8780458,
+          58.6188973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O42 Vestrevei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9269667,
+          58.6151363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O43 Kiwi Vegårdshei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8641665,
+          58.7495968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O45 Kiwi Nedenes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7023708,
+          58.4165663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O46 Plantasjen Arendal "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7357414,
+          58.4338861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O47 Europris Nedenes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7008927,
+          58.4178511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O48 Joker Nordagutu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3215246,
+          59.4180246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parkveien, v/returpunkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3241169,
+          60.3863463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O49 Spar Blakstad "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6437237,
+          58.5054777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O50 Esso Osedalen "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6288817,
+          58.5073025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O51 Stemmen gjenvinningsstasjon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0626986,
+          59.1015805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O44 Langmoen Avfallsanlegg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5252194,
+          58.9271027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O54 Brødrene Myhre "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3759824,
+          60.2183906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O55 Mekonomen bilverksted "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0899915,
+          60.2039538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O56 Hønefoss Arena "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2665935,
+          60.1598559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O57 Kongssenteret "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.994749,
+          60.1911273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hestmyrvegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3184667,
+          59.3820858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O59 Rema Langeland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.97745,
+          60.2016159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O58 Rema 1000 Årnes "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4694606,
+          60.1257099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O60 Joker Austmarka "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3219186,
+          60.0966416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O61 Joker Fenstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.391509,
+          60.2198916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O62 Læringsverkstedet Øvre Neskollen Naturbarnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3416229,
+          60.1166143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O63 Parkeringsplass Storlinna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5116307,
+          60.419248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O64 Rema 1000 Ask / Gjerdrum "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.03452,
+          60.0711361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O65 Jarenstranda 11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5691142,
+          60.361519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O66 Åneby Senter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8722898,
+          60.088612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O67 Parkering ved Idrettsveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5807877,
+          60.3559258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O68 Kremmertorget kjøpesenter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5680632,
+          60.8783692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O69 Kiwi Hanstad "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5680297,
+          60.8617475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O71 Spar Tangen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2672009,
+          60.6175605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O72 Rema 1000 Løten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3351932,
+          60.8215004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O70 Rema 1000 (Elgen) Elverum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5371886,
+          60.8843704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O73 Fåvang Miljøstasjon - MGR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1926147,
+          61.4516418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S105 Espira Fjelsanden Barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6927684,
+          58.9780057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O74 Frya Miljøstasjon - MGR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0520373,
+          61.5485237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alrek Studentboliger "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.359217,
+          60.3794477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Idrettsveien / BRANN stadion "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3557386,
+          60.3661188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Borettslaget Aurdalen Terrasse "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2872716,
+          60.304769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O52 Rustmoen Miljøstasjon - MGR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7461877,
+          61.5828482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vestlund borettslag "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.29229,
+          60.3584459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O53 Parkeringsplass vestsideveien "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.048984,
+          60.4075272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wernerholmsvei "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3399593,
+          60.3270109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O75 EXTRA Brandbu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5049352,
+          60.4215348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O76 Joker Fall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.362981,
+          60.6692039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O77 Stegen gjennvinningstasjon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1689677,
+          59.5634919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnpris Damsgård"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3193325,
+          60.3815821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O78 Joker Vallset"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3441661,
+          60.6846733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O79 Kvam Miljøstasjon - MGR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7105526,
+          61.664155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Prix Granlia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1872585,
+          62.7444714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O80 Stangehallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2051221,
+          60.7160182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Florø Ungdomsskule"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0191906,
+          61.5973021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O81 Olrud Handelspark "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0674694,
+          60.8286427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O82 Ved Rosenlund Bydelsenter "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4522711,
+          61.1279646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O83 Marlermesterne Indre Østland AS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6108632,
+          60.955146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O85 Kiwi Gausdal "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2228566,
+          61.2268945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O86 GLØR Roverudmyra miljøpark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5109076,
+          61.0763214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O87 Sirkula Kretsløpsparken "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0850401,
+          60.8428684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O88 Sirkula Heggvin avfallsanlegg "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2713242,
+          60.852137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt S61Solstrålen Barnehage "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8597775,
+          58.0772991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O89 GLØR Gausdal gjenvinningsstasjon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2127348,
+          61.2229877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O90 GLØR Øyer gjenvinningsstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4107051,
+          61.2583461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O91 Sirkula Brumunddal gjenvinningsstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9198781,
+          60.8933552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O92 Sirkula Stange gjenvinningsstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2208419,
+          60.7163359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O93 Sirkula Moelv gjenvinningsstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6894285,
+          60.9394529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Extra Moksheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3082876,
+          59.3635401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O94 HRA Trollmyra gjenvinningsstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3432719,
+          60.2259398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O95 HRA Svingerud gjenvinningsstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2410886,
+          60.0975658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O96 HRA Roa gjenvinningsstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6177006,
+          60.2895672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Florø Tennisklubb, Havrenesvegen 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0255089,
+          61.59846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O97 HRA Mohagen gjenvinningsstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5592297,
+          60.4086584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O98 Varig Lillehammer (Glør)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4625401,
+          61.1141942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O99 HRA Sokna gjenvinningsstasjon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9494846,
+          60.2672219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O100 HRA Nes gjenvinningsstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570546,
+          60.5571037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O101 SØIR Haugedalen gjenvinningsstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4672503,
+          61.1608358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O102 SØIR Hornmoen gjenvinningsstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6379881,
+          60.8936331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O103 Horisont Dalborgmarka miljøstasjon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6405723,
+          60.7674167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O104 Horisont Biri miljøstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6029786,
+          60.9532495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O105 Horisont Prøven miljøstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6270263,
+          60.7015352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O106 Horisont Kraby miljøstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8725779,
+          60.6567925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O107 Horisont Hov miljøstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3376464,
+          60.7031856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O108 SØIR Trysil gjenvinningsstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2696672,
+          61.2973763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O109 Horisont Vinjarmoen miljøstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0472495,
+          60.8324836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O110 Horisont Åmot miljøstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0614794,
+          60.9896224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O84 Horisont Snertingdal miljøstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.386699,
+          60.8793547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O105 Horisont Prøven miljøstasjon "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6030935,
+          60.7081084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punkt O111 Stangeveien borettslag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0829671,
+          60.7917237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flora VGS, Professor Gjelsvikveg 20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0410748,
+          61.5937712
+        ]
+      }
+    }
+  ]
+}
