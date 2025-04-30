@@ -212,7 +212,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kleskontainer M27 Bunnpris Vatne"
+        "name": "Bunnpris Vatne"
       },
       "geometry": {
         "type": "Point",
@@ -355,7 +355,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Klescontainer M35 Rema Fosnavåg"
+        "name": "Rema Fosnavåg"
       },
       "geometry": {
         "type": "Point",
@@ -641,7 +641,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Klescontainer M68 Coop Fiskå"
+        "name": "Coop Fiskå"
       },
       "geometry": {
         "type": "Point",
@@ -732,7 +732,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Copp Marked"
+        "name": "Coop Marked"
       },
       "geometry": {
         "type": "Point",
@@ -1291,7 +1291,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B240 Coop Extra Sogndal"
+        "name": "Coop Extra Sogndal"
       },
       "geometry": {
         "type": "Point",
@@ -1304,7 +1304,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B242 Leikanger "
+        "name": "Leikanger "
       },
       "geometry": {
         "type": "Point",
@@ -1408,7 +1408,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B239 Pyramiden Gaupne"
+        "name": "Pyramiden Gaupne"
       },
       "geometry": {
         "type": "Point",
@@ -1642,7 +1642,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B238 Elkjøp Kaupanger"
+        "name": "Elkjøp Kaupanger"
       },
       "geometry": {
         "type": "Point",
@@ -1681,7 +1681,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B241 Sogn Treningssenter"
+        "name": "Sogn Treningssenter"
       },
       "geometry": {
         "type": "Point",
@@ -2019,7 +2019,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B244 Joker Kyrkjebø"
+        "name": "Joker Kyrkjebø"
       },
       "geometry": {
         "type": "Point",
@@ -2032,7 +2032,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B243 Høyanger"
+        "name": "Høyanger"
       },
       "geometry": {
         "type": "Point",
@@ -2045,7 +2045,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B02 Spar Hylkje"
+        "name": "Spar Hylkje"
       },
       "geometry": {
         "type": "Point",
@@ -2058,7 +2058,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B01 Rema 1000 Eidsvåg"
+        "name": "Rema 1000 Eidsvåg"
       },
       "geometry": {
         "type": "Point",
@@ -2071,7 +2071,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B05 Coop Extra Nyborg"
+        "name": "Coop Extra Nyborg"
       },
       "geometry": {
         "type": "Point",
@@ -2084,7 +2084,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B03 Meny Industriveien "
+        "name": "Meny Industriveien "
       },
       "geometry": {
         "type": "Point",
@@ -2097,7 +2097,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B04 Jysk Nesttunn"
+        "name": "Jysk Nesttunn"
       },
       "geometry": {
         "type": "Point",
@@ -2110,7 +2110,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B06 Coop Extra Fana"
+        "name": "Coop Extra Fana"
       },
       "geometry": {
         "type": "Point",
@@ -2123,7 +2123,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B07 Bunnpris Bønes"
+        "name": "Bunnpris Bønes"
       },
       "geometry": {
         "type": "Point",
@@ -2136,7 +2136,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B08 Kiwi Sørås"
+        "name": "Kiwi Sørås"
       },
       "geometry": {
         "type": "Point",
@@ -2149,7 +2149,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B09 Rema 1000 Godvik"
+        "name": "Rema 1000 Godvik"
       },
       "geometry": {
         "type": "Point",
@@ -2162,7 +2162,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B10 Eurospar Isdalstø"
+        "name": "Eurospar Isdalstø"
       },
       "geometry": {
         "type": "Point",
@@ -2175,7 +2175,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B13 Coop Extra Lone"
+        "name": "Coop Extra Lone"
       },
       "geometry": {
         "type": "Point",
@@ -2188,7 +2188,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B14 Rema 1000 Morgnstad"
+        "name": "Rema 1000 Morgnstad"
       },
       "geometry": {
         "type": "Point",
@@ -2201,7 +2201,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B12 Joker Austrheim"
+        "name": "Joker Austrheim"
       },
       "geometry": {
         "type": "Point",
@@ -2214,7 +2214,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B15 Matkroken Hjelmås"
+        "name": "Matkroken Hjelmås"
       },
       "geometry": {
         "type": "Point",
@@ -2227,7 +2227,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B17 Joker Hanøy"
+        "name": "Joker Hanøy"
       },
       "geometry": {
         "type": "Point",
@@ -2240,7 +2240,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B19 Rema 1000 Sagvåg"
+        "name": "Rema 1000 Sagvåg"
       },
       "geometry": {
         "type": "Point",
@@ -2253,7 +2253,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B21 Fitjar kommune"
+        "name": "Fitjar kommune"
       },
       "geometry": {
         "type": "Point",
@@ -2266,7 +2266,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B20 Rema 1000 Fitjar"
+        "name": "Rema 1000 Fitjar"
       },
       "geometry": {
         "type": "Point",
@@ -2279,7 +2279,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B18 Kiwi Haus"
+        "name": "Kiwi Haus"
       },
       "geometry": {
         "type": "Point",
@@ -2305,7 +2305,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B45 Strushamnsveien 53"
+        "name": "Strushamnsveien 53"
       },
       "geometry": {
         "type": "Point",
@@ -2331,7 +2331,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B245 Bunnpris Lavik"
+        "name": "Bunnpris Lavik"
       },
       "geometry": {
         "type": "Point",
@@ -2344,7 +2344,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B11 Joker Haugsvær"
+        "name": "Joker Haugsvær"
       },
       "geometry": {
         "type": "Point",
@@ -2357,7 +2357,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B22 Fyllingsdalen "
+        "name": "Fyllingsdalen "
       },
       "geometry": {
         "type": "Point",
@@ -2370,7 +2370,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B23 Amfi Voss"
+        "name": "Amfi Voss"
       },
       "geometry": {
         "type": "Point",
@@ -2383,7 +2383,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B24 Coop Extra Skulestadsmo"
+        "name": "Coop Extra Skulestadsmo"
       },
       "geometry": {
         "type": "Point",
@@ -2396,7 +2396,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B25 Rema 1000 Skulestadsmo"
+        "name": "Rema 1000 Skulestadsmo"
       },
       "geometry": {
         "type": "Point",
@@ -2409,7 +2409,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B27 Coop Marked Ålvik"
+        "name": "Coop Marked Ålvik"
       },
       "geometry": {
         "type": "Point",
@@ -2422,7 +2422,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B26 Esso Norheimsund"
+        "name": "Esso Norheimsund"
       },
       "geometry": {
         "type": "Point",
@@ -2435,7 +2435,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B59 Aksdal Senter/ Meny"
+        "name": "Aksdal Senter/ Meny"
       },
       "geometry": {
         "type": "Point",
@@ -2448,7 +2448,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B28 Extra Tysnes"
+        "name": "Extra Tysnes"
       },
       "geometry": {
         "type": "Point",
@@ -2461,7 +2461,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B29 Spar Tysnes"
+        "name": "Spar Tysnes"
       },
       "geometry": {
         "type": "Point",
@@ -2474,7 +2474,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B30 Kiwi Sagvåg"
+        "name": "Kiwi Sagvåg"
       },
       "geometry": {
         "type": "Point",
@@ -2487,7 +2487,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B31 Joker Ølve"
+        "name": "Joker Ølve"
       },
       "geometry": {
         "type": "Point",
@@ -2500,7 +2500,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B32 Spar Hatlestrand"
+        "name": "Spar Hatlestrand"
       },
       "geometry": {
         "type": "Point",
@@ -2526,7 +2526,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B36 Rema 1000 Morvik"
+        "name": "Rema 1000 Morvik"
       },
       "geometry": {
         "type": "Point",
@@ -2539,7 +2539,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B37 Extra Haukedalen"
+        "name": "Extra Haukedalen"
       },
       "geometry": {
         "type": "Point",
@@ -2552,7 +2552,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B38 Extra Alpetun"
+        "name": "Extra Alpetun"
       },
       "geometry": {
         "type": "Point",
@@ -2565,7 +2565,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B41 Spar Haga"
+        "name": "Spar Haga"
       },
       "geometry": {
         "type": "Point",
@@ -2578,7 +2578,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B40 Rema 1000 Kjøtteinsvegen"
+        "name": "Rema 1000 Kjøtteinsvegen"
       },
       "geometry": {
         "type": "Point",
@@ -2591,7 +2591,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B60 Extra Karmsundgata"
+        "name": "Extra Karmsundgata"
       },
       "geometry": {
         "type": "Point",
@@ -2604,7 +2604,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B42 Joker Vossestrand"
+        "name": "Joker Vossestrand"
       },
       "geometry": {
         "type": "Point",
@@ -2630,7 +2630,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B48 Joker Hundvin"
+        "name": "Joker Hundvin"
       },
       "geometry": {
         "type": "Point",
@@ -2721,7 +2721,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B46 Arefjordvegen"
+        "name": "Arefjordvegen"
       },
       "geometry": {
         "type": "Point",
@@ -2734,7 +2734,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B47 Sund kommune"
+        "name": "Sund kommune"
       },
       "geometry": {
         "type": "Point",
@@ -2747,7 +2747,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B51 NGIR Kjevikdalen"
+        "name": "NGIR Kjevikdalen"
       },
       "geometry": {
         "type": "Point",
@@ -2760,7 +2760,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B50 NGIR Mjåtveit ( Frekhaug )"
+        "name": "NGIR Mjåtveit"
       },
       "geometry": {
         "type": "Point",
@@ -2773,7 +2773,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B52 Dalekvam"
+        "name": "Dalekvam"
       },
       "geometry": {
         "type": "Point",
@@ -2786,7 +2786,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B16 Rema 1000 Ågotnes"
+        "name": "Rema 1000 Ågotnes"
       },
       "geometry": {
         "type": "Point",
@@ -2799,7 +2799,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B53 Bunnpris Buena"
+        "name": "Bunnpris Buena"
       },
       "geometry": {
         "type": "Point",
@@ -2812,7 +2812,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B54 Lysekloster"
+        "name": "Lysekloster"
       },
       "geometry": {
         "type": "Point",
@@ -2825,7 +2825,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B55 Eikelandsosen"
+        "name": "Eikelandsosen"
       },
       "geometry": {
         "type": "Point",
@@ -2838,7 +2838,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B56 Bjørnafjorden"
+        "name": "Bjørnafjorden"
       },
       "geometry": {
         "type": "Point",
@@ -2851,7 +2851,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B63 Spar Skåredalen"
+        "name": "Spar Skåredalen"
       },
       "geometry": {
         "type": "Point",
@@ -2864,7 +2864,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B64 Bunnpris Montana"
+        "name": "Bunnpris Montana"
       },
       "geometry": {
         "type": "Point",
@@ -2877,7 +2877,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B57 Knarvik Senter"
+        "name": "Knarvik Senter"
       },
       "geometry": {
         "type": "Point",
@@ -2890,7 +2890,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B65 Kiwi Ulset"
+        "name": "Kiwi Ulset"
       },
       "geometry": {
         "type": "Point",
@@ -2903,7 +2903,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B66 Nesttunvegen"
+        "name": "Nesttunvegen"
       },
       "geometry": {
         "type": "Point",
@@ -2916,7 +2916,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B68 Vestre Borettslag"
+        "name": "Vestre Borettslag"
       },
       "geometry": {
         "type": "Point",
@@ -2929,7 +2929,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B71 Vadmyra borettslag"
+        "name": "Vadmyra borettslag"
       },
       "geometry": {
         "type": "Point",
@@ -2942,7 +2942,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B69 Søvikdalen"
+        "name": "Søvikdalen"
       },
       "geometry": {
         "type": "Point",
@@ -2955,7 +2955,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B70 Halhjemsmarka"
+        "name": "Halhjemsmarka"
       },
       "geometry": {
         "type": "Point",
@@ -2968,7 +2968,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B72 Skogsvåg"
+        "name": "Skogsvåg"
       },
       "geometry": {
         "type": "Point",
@@ -2981,7 +2981,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B73 Fjell"
+        "name": "Fjell"
       },
       "geometry": {
         "type": "Point",
@@ -3111,7 +3111,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B74 Rema 1000 Skogsvåg"
+        "name": "Rema 1000 Skogsvåg"
       },
       "geometry": {
         "type": "Point",
@@ -3124,7 +3124,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B75 Haga"
+        "name": "Haga"
       },
       "geometry": {
         "type": "Point",
@@ -3137,7 +3137,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B76 Tysse"
+        "name": "Tysse"
       },
       "geometry": {
         "type": "Point",
@@ -3150,7 +3150,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B77 Sandslivegen"
+        "name": "Sandslivegen"
       },
       "geometry": {
         "type": "Point",
@@ -3163,7 +3163,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B79 Barliveien"
+        "name": "Barliveien"
       },
       "geometry": {
         "type": "Point",
@@ -3176,7 +3176,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B78 Sikthaugen terrasse"
+        "name": "Sikthaugen terrasse"
       },
       "geometry": {
         "type": "Point",
@@ -3189,7 +3189,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B80 Janaveien"
+        "name": "Janaveien"
       },
       "geometry": {
         "type": "Point",
@@ -3202,7 +3202,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B81 Rådalslien"
+        "name": "Rådalslien"
       },
       "geometry": {
         "type": "Point",
@@ -3215,7 +3215,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B82 Dag Hammarskjölds vei 1"
+        "name": "Dag Hammarskjölds vei 1"
       },
       "geometry": {
         "type": "Point",
@@ -3241,7 +3241,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B83 Husnes Storsenter"
+        "name": "Husnes Storsenter"
       },
       "geometry": {
         "type": "Point",
@@ -3280,7 +3280,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B84 Bjørndalsskogen"
+        "name": "Bjørndalsskogen"
       },
       "geometry": {
         "type": "Point",
@@ -3293,7 +3293,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B85 Kråkenesdalen"
+        "name": "Kråkenesdalen"
       },
       "geometry": {
         "type": "Point",
@@ -3306,7 +3306,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B86 Gullstølstien"
+        "name": "Gullstølstien"
       },
       "geometry": {
         "type": "Point",
@@ -3319,7 +3319,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B87 Kravkåsslia"
+        "name": "Kravkåsslia"
       },
       "geometry": {
         "type": "Point",
@@ -3332,7 +3332,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B88 Kidsa Breistein"
+        "name": "Kidsa Breistein"
       },
       "geometry": {
         "type": "Point",
@@ -3345,7 +3345,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B89 Nordgardsleitet"
+        "name": "Nordgardsleitet"
       },
       "geometry": {
         "type": "Point",
@@ -3358,7 +3358,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B90 Heiane"
+        "name": "Heiane"
       },
       "geometry": {
         "type": "Point",
@@ -3371,7 +3371,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B91 Fitjar"
+        "name": "Fitjar"
       },
       "geometry": {
         "type": "Point",
@@ -3384,7 +3384,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B92 Bømlo"
+        "name": "Bømlo"
       },
       "geometry": {
         "type": "Point",
@@ -3397,7 +3397,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B93 Husnes"
+        "name": "Husnes"
       },
       "geometry": {
         "type": "Point",
@@ -3410,7 +3410,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B44 Frekhaug"
+        "name": "Frekhaug"
       },
       "geometry": {
         "type": "Point",
@@ -3423,7 +3423,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B67 Sandbrogaten"
+        "name": "Sandbrogaten"
       },
       "geometry": {
         "type": "Point",
@@ -3436,7 +3436,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B94 Austevoll SIM"
+        "name": "Austevoll SIM"
       },
       "geometry": {
         "type": "Point",
@@ -3449,7 +3449,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B95 Tysnes SIM"
+        "name": "Tysnes SIM"
       },
       "geometry": {
         "type": "Point",
@@ -3462,7 +3462,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B97 Extra Ulset"
+        "name": "Extra Ulset"
       },
       "geometry": {
         "type": "Point",
@@ -3475,7 +3475,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B98 Rema 1000 Toppe"
+        "name": "Rema 1000 Toppe"
       },
       "geometry": {
         "type": "Point",
@@ -3488,7 +3488,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B99 Amalie skrams vei"
+        "name": "Amalie skrams vei"
       },
       "geometry": {
         "type": "Point",
@@ -3501,7 +3501,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B100 Aurdalslia"
+        "name": "Aurdalslia"
       },
       "geometry": {
         "type": "Point",
@@ -3514,7 +3514,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B101 Breiviken"
+        "name": "Breiviken"
       },
       "geometry": {
         "type": "Point",
@@ -3527,7 +3527,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B103 Bjørgelien"
+        "name": "Bjørgelien"
       },
       "geometry": {
         "type": "Point",
@@ -3540,7 +3540,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B108 Mulesvingen"
+        "name": "Mulesvingen"
       },
       "geometry": {
         "type": "Point",
@@ -3553,7 +3553,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B109 Vindharpevegen"
+        "name": "Vindharpevegen"
       },
       "geometry": {
         "type": "Point",
@@ -3566,7 +3566,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B96 Sveio"
+        "name": "Sveio"
       },
       "geometry": {
         "type": "Point",
@@ -3579,7 +3579,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B118 Os Rådhus"
+        "name": "Os Rådhus"
       },
       "geometry": {
         "type": "Point",
@@ -3592,7 +3592,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B110 St. Olavs vei"
+        "name": "St. Olavs vei"
       },
       "geometry": {
         "type": "Point",
@@ -3605,7 +3605,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B111 Lægdesvingen"
+        "name": "Lægdesvingen"
       },
       "geometry": {
         "type": "Point",
@@ -3618,7 +3618,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B113 Mannsverk"
+        "name": "Mannsverk"
       },
       "geometry": {
         "type": "Point",
@@ -3631,7 +3631,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B116 Nordre Nattlandsfjellet"
+        "name": "Nordre Nattlandsfjellet"
       },
       "geometry": {
         "type": "Point",
@@ -3644,7 +3644,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B117 Trolldalen"
+        "name": "Trolldalen"
       },
       "geometry": {
         "type": "Point",
@@ -3657,7 +3657,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B119 Karlsmarka"
+        "name": "Karlsmarka"
       },
       "geometry": {
         "type": "Point",
@@ -3670,7 +3670,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B120 Fossane"
+        "name": "Fossane"
       },
       "geometry": {
         "type": "Point",
@@ -3683,7 +3683,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S01 Kiwi Hundvåg"
+        "name": "Kiwi Hundvåg"
       },
       "geometry": {
         "type": "Point",
@@ -3696,7 +3696,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S03 Bryggen Senter Hommersåk "
+        "name": "Bryggen Senter Hommersåk "
       },
       "geometry": {
         "type": "Point",
@@ -3709,7 +3709,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S04 Rema Hundvåg"
+        "name": "Rema Hundvåg"
       },
       "geometry": {
         "type": "Point",
@@ -3722,7 +3722,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S05 Rema Tasta"
+        "name": "Rema Tasta"
       },
       "geometry": {
         "type": "Point",
@@ -3735,7 +3735,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S06 Meny Stokka"
+        "name": "Meny Stokka"
       },
       "geometry": {
         "type": "Point",
@@ -3748,7 +3748,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S07 Rema Kvernevik"
+        "name": "Rema Kvernevik"
       },
       "geometry": {
         "type": "Point",
@@ -3761,7 +3761,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S08 Extra Madla"
+        "name": "Extra Madla"
       },
       "geometry": {
         "type": "Point",
@@ -3774,7 +3774,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S09 Tjensvoll"
+        "name": "Tjensvoll"
       },
       "geometry": {
         "type": "Point",
@@ -3787,7 +3787,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S10 Boganesveien"
+        "name": "Boganesveien"
       },
       "geometry": {
         "type": "Point",
@@ -3800,7 +3800,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B121 Elvebakken"
+        "name": "Elvebakken"
       },
       "geometry": {
         "type": "Point",
@@ -3813,7 +3813,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B122 Starefossen"
+        "name": "Starefossen"
       },
       "geometry": {
         "type": "Point",
@@ -3826,7 +3826,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B123 Trollbodalmeningen"
+        "name": "Trollbodalmenningen"
       },
       "geometry": {
         "type": "Point",
@@ -3839,7 +3839,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S11 Stavanger Stadion"
+        "name": "Stavanger Stadion"
       },
       "geometry": {
         "type": "Point",
@@ -3852,7 +3852,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S12 Rema 1000 Dusavik"
+        "name": "Rema 1000 Dusavik"
       },
       "geometry": {
         "type": "Point",
@@ -3865,7 +3865,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S13 Lassa Idretspark"
+        "name": "Lassa Idretspark"
       },
       "geometry": {
         "type": "Point",
@@ -3878,7 +3878,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S14 Extra Tasta"
+        "name": "Extra Tasta"
       },
       "geometry": {
         "type": "Point",
@@ -3891,7 +3891,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B126 Nøstegaten"
+        "name": "Nøstegaten"
       },
       "geometry": {
         "type": "Point",
@@ -3904,7 +3904,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B115 − Nedre nøttveit"
+        "name": "Nedre Nøttveit"
       },
       "geometry": {
         "type": "Point",
@@ -3917,7 +3917,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S15 Coop prix Grødem"
+        "name": "Coop prix Grødem"
       },
       "geometry": {
         "type": "Point",
@@ -3930,7 +3930,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S16 Viste Hageby"
+        "name": "Viste Hageby"
       },
       "geometry": {
         "type": "Point",
@@ -3943,7 +3943,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S17 Esso Bekkefaret "
+        "name": "Esso Bekkefaret "
       },
       "geometry": {
         "type": "Point",
@@ -3956,7 +3956,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B127 Ole Irgens´vei"
+        "name": "Ole Irgens´vei"
       },
       "geometry": {
         "type": "Point",
@@ -3969,7 +3969,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B128 Krokeidevegen"
+        "name": "Krokeidevegen"
       },
       "geometry": {
         "type": "Point",
@@ -3982,7 +3982,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B129 Knappenveien"
+        "name": "Knappenveien"
       },
       "geometry": {
         "type": "Point",
@@ -3995,7 +3995,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B130 Spar Helleveien"
+        "name": "Spar Helleveien"
       },
       "geometry": {
         "type": "Point",
@@ -4008,7 +4008,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B131 Ulsmåg skole"
+        "name": "Ulsmåg skole"
       },
       "geometry": {
         "type": "Point",
@@ -4021,7 +4021,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S02 Level Up"
+        "name": "Level Up"
       },
       "geometry": {
         "type": "Point",
@@ -4034,7 +4034,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kiwi Stryn\n"
+        "name": "Kiwi Stryn"
       },
       "geometry": {
         "type": "Point",
@@ -4060,7 +4060,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Hessavegen\n"
+        "name": "Hessavegen"
       },
       "geometry": {
         "type": "Point",
@@ -4073,7 +4073,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S18 Rema Hillevåg\n"
+        "name": "Rema Hillevåg"
       },
       "geometry": {
         "type": "Point",
@@ -4086,7 +4086,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B133 Breimyra"
+        "name": "Breimyra"
       },
       "geometry": {
         "type": "Point",
@@ -4099,7 +4099,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B135 Møllendalsveien"
+        "name": "Møllendalsveien"
       },
       "geometry": {
         "type": "Point",
@@ -4112,7 +4112,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B136 Tertnes bedehus"
+        "name": "Tertnes bedehus"
       },
       "geometry": {
         "type": "Point",
@@ -4125,7 +4125,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B138 Trengereid"
+        "name": "Trengereid"
       },
       "geometry": {
         "type": "Point",
@@ -4151,7 +4151,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B139 Mc Donalds "
+        "name": "McDonalds "
       },
       "geometry": {
         "type": "Point",
@@ -4177,7 +4177,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B35 Leirvik"
+        "name": "Leirvik"
       },
       "geometry": {
         "type": "Point",
@@ -4190,7 +4190,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S19 Esso Hillevåg"
+        "name": "Esso Hillevåg"
       },
       "geometry": {
         "type": "Point",
@@ -4203,7 +4203,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B62 Nippedalen\n"
+        "name": "Nippedalen"
       },
       "geometry": {
         "type": "Point",
@@ -4216,7 +4216,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S20 Rema Ganddal"
+        "name": "Rema Ganddal"
       },
       "geometry": {
         "type": "Point",
@@ -4229,7 +4229,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B140 Joker Eidsvik"
+        "name": "Joker Eidsvik"
       },
       "geometry": {
         "type": "Point",
@@ -4242,7 +4242,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B141 Kiwi/Spar Kjøp Heiane"
+        "name": "Kiwi/Spar Kjøp Heiane"
       },
       "geometry": {
         "type": "Point",
@@ -4255,7 +4255,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B142 Traneveien"
+        "name": "Traneveien"
       },
       "geometry": {
         "type": "Point",
@@ -4268,7 +4268,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Point S21 Esso Revheimsveien"
+        "name": "Esso Revheimsveien"
       },
       "geometry": {
         "type": "Point",
@@ -4281,7 +4281,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B143 Garnestangen"
+        "name": "Garnestangen"
       },
       "geometry": {
         "type": "Point",
@@ -4294,7 +4294,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B144 Utløbakken"
+        "name": "Utløbakken"
       },
       "geometry": {
         "type": "Point",
@@ -4307,7 +4307,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B145 Ågotnes"
+        "name": "Ågotnes"
       },
       "geometry": {
         "type": "Point",
@@ -4320,7 +4320,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B146 BIR Salhus"
+        "name": "BIR Salhus"
       },
       "geometry": {
         "type": "Point",
@@ -4333,7 +4333,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B147 BIR Møllendalsveien"
+        "name": "BIR Møllendalsveien"
       },
       "geometry": {
         "type": "Point",
@@ -4346,7 +4346,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B148 Rema Solvang"
+        "name": "Rema Solvang"
       },
       "geometry": {
         "type": "Point",
@@ -4359,7 +4359,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B149 Extra Eidsvåg"
+        "name": "Extra Eidsvåg"
       },
       "geometry": {
         "type": "Point",
@@ -4372,7 +4372,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B151 Steinsvikvegen"
+        "name": "Steinsvikvegen"
       },
       "geometry": {
         "type": "Point",
@@ -4385,7 +4385,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B152 Foldnes Skole"
+        "name": "Foldnes Skole"
       },
       "geometry": {
         "type": "Point",
@@ -4398,7 +4398,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B153 Vestsidevegen"
+        "name": "Vestsidevegen"
       },
       "geometry": {
         "type": "Point",
@@ -4411,7 +4411,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B154 Spar Steinsland"
+        "name": "Spar Steinsland"
       },
       "geometry": {
         "type": "Point",
@@ -4424,7 +4424,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B164 Joker Finnås"
+        "name": "Joker Finnås"
       },
       "geometry": {
         "type": "Point",
@@ -4450,7 +4450,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B155 BIR Espehaugen"
+        "name": "BIR Espehaugen"
       },
       "geometry": {
         "type": "Point",
@@ -4502,7 +4502,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B156 Meieritomta"
+        "name": "Meieritomta"
       },
       "geometry": {
         "type": "Point",
@@ -4515,7 +4515,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B34 Fonnes Senter"
+        "name": "Fonnes Senter"
       },
       "geometry": {
         "type": "Point",
@@ -4567,7 +4567,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B161 Norheimsund - Rema"
+        "name": "Norheimsund - Rema"
       },
       "geometry": {
         "type": "Point",
@@ -4580,7 +4580,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B162 Storteigen"
+        "name": "Storteigen"
       },
       "geometry": {
         "type": "Point",
@@ -4593,7 +4593,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B163 Kvammabygg"
+        "name": "Kvammabygg"
       },
       "geometry": {
         "type": "Point",
@@ -4606,7 +4606,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B158 Strandebarm"
+        "name": "Strandebarm"
       },
       "geometry": {
         "type": "Point",
@@ -4619,7 +4619,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B159 Tørvikbygd"
+        "name": "Tørvikbygd"
       },
       "geometry": {
         "type": "Point",
@@ -4632,7 +4632,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B160 Vikøy"
+        "name": "Vikøy"
       },
       "geometry": {
         "type": "Point",
@@ -4645,7 +4645,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B166"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -4658,7 +4658,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B171"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -4671,7 +4671,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B165 KK Senter"
+        "name": "KK Senter"
       },
       "geometry": {
         "type": "Point",
@@ -4684,7 +4684,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B167 Matkrokken Bekkjarvik"
+        "name": "Matkrokken Bekkjarvik"
       },
       "geometry": {
         "type": "Point",
@@ -4723,7 +4723,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B169 Bunnpris Odda"
+        "name": "Bunnpris Odda"
       },
       "geometry": {
         "type": "Point",
@@ -4762,7 +4762,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B170 Meny Ramnanger"
+        "name": "Meny Ramnanger"
       },
       "geometry": {
         "type": "Point",
@@ -4775,7 +4775,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B114 Fanatorget"
+        "name": "Fanatorget"
       },
       "geometry": {
         "type": "Point",
@@ -4788,7 +4788,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B137 Kidsa Ladegården Barnehage "
+        "name": "Kidsa Ladegården Barnehage "
       },
       "geometry": {
         "type": "Point",
@@ -4814,7 +4814,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S25 Heddeveien FUS barnehage"
+        "name": "Heddeveien FUS barnehage"
       },
       "geometry": {
         "type": "Point",
@@ -4827,7 +4827,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B150 Håkonshella FUS barnehage"
+        "name": "Håkonshella FUS barnehage"
       },
       "geometry": {
         "type": "Point",
@@ -4840,7 +4840,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B125 Rema Kleppestø"
+        "name": "Rema Kleppestø"
       },
       "geometry": {
         "type": "Point",
@@ -4853,7 +4853,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Copp Longva\n"
+        "name": "Copp Longva"
       },
       "geometry": {
         "type": "Point",
@@ -4879,7 +4879,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B182 KIWI Skåredalen"
+        "name": "KIWI Skåredalen"
       },
       "geometry": {
         "type": "Point",
@@ -4892,7 +4892,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S26 Espira Ree barnehage "
+        "name": "Espira Ree barnehage "
       },
       "geometry": {
         "type": "Point",
@@ -4905,7 +4905,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B181 Bømlo bussterminal"
+        "name": "Bømlo bussterminal"
       },
       "geometry": {
         "type": "Point",
@@ -4918,7 +4918,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B58 Spar Frakkagjerd"
+        "name": "Spar Frakkagjerd"
       },
       "geometry": {
         "type": "Point",
@@ -4931,7 +4931,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S28 Eivindsholen FUS barnehage "
+        "name": "Eivindsholen FUS barnehage "
       },
       "geometry": {
         "type": "Point",
@@ -4944,7 +4944,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B132 Espira Solkroken "
+        "name": "Espira Solkroken "
       },
       "geometry": {
         "type": "Point",
@@ -4957,7 +4957,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S29 Åmøyveien "
+        "name": "Åmøyveien "
       },
       "geometry": {
         "type": "Point",
@@ -4996,7 +4996,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B168 BIR Askøy"
+        "name": "BIR Askøy"
       },
       "geometry": {
         "type": "Point",
@@ -5009,7 +5009,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B174 BIR Os"
+        "name": "BIR Os"
       },
       "geometry": {
         "type": "Point",
@@ -5022,7 +5022,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B176 BIR Osterøy"
+        "name": "BIR Osterøy"
       },
       "geometry": {
         "type": "Point",
@@ -5035,7 +5035,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B183 Kidsa Myrdal"
+        "name": "Kidsa Myrdal"
       },
       "geometry": {
         "type": "Point",
@@ -5048,7 +5048,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B184 Bunnpris Steinsviken"
+        "name": "Bunnpris Steinsviken"
       },
       "geometry": {
         "type": "Point",
@@ -5061,7 +5061,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B185 Fana Arena"
+        "name": "Fana Arena"
       },
       "geometry": {
         "type": "Point",
@@ -5074,7 +5074,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B186 Gneist Idrettslag klubbhus "
+        "name": "Gneist Idrettslag klubbhus "
       },
       "geometry": {
         "type": "Point",
@@ -5087,7 +5087,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B187 Øyjordsveien "
+        "name": "Øyjordsveien "
       },
       "geometry": {
         "type": "Point",
@@ -5100,7 +5100,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B188 Nyhavnsveien "
+        "name": "Nyhavnsveien "
       },
       "geometry": {
         "type": "Point",
@@ -5113,7 +5113,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B190 Læringsverkstedet Maurtua AS Barnehage"
+        "name": "Læringsverkstedet Maurtua AS Barnehage"
       },
       "geometry": {
         "type": "Point",
@@ -5126,7 +5126,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B191 Sauafjellet FUS barnehage as"
+        "name": "Sauafjellet FUS barnehage as"
       },
       "geometry": {
         "type": "Point",
@@ -5139,7 +5139,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B192 Bjorøy barnehage "
+        "name": "Bjorøy barnehage "
       },
       "geometry": {
         "type": "Point",
@@ -5152,7 +5152,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B193 Krokkusbakken Læringsverkstedet Barnehage"
+        "name": "Krokkusbakken Læringsverkstedet Barnehage"
       },
       "geometry": {
         "type": "Point",
@@ -5165,7 +5165,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B195 REIGSTADVEGEN 5"
+        "name": "Reigstadvegen 5"
       },
       "geometry": {
         "type": "Point",
@@ -5178,7 +5178,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B177 BIR Raunekleivvegen 88, 5652 Årland"
+        "name": "BIR Raunekleivvegen 88"
       },
       "geometry": {
         "type": "Point",
@@ -5191,7 +5191,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B196 Spar Seimstrand"
+        "name": "Spar Seimstrand"
       },
       "geometry": {
         "type": "Point",
@@ -5204,7 +5204,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B197 Spar Uskedalen"
+        "name": "Spar Uskedalen"
       },
       "geometry": {
         "type": "Point",
@@ -5217,7 +5217,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B198 Coop Prix Jondal"
+        "name": "Coop Prix Jondal"
       },
       "geometry": {
         "type": "Point",
@@ -5230,7 +5230,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B199 Nærbutikken Tyssedal"
+        "name": "Nærbutikken Tyssedal"
       },
       "geometry": {
         "type": "Point",
@@ -5243,7 +5243,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B200 Rema Wergeland"
+        "name": "Rema Wergeland"
       },
       "geometry": {
         "type": "Point",
@@ -5256,7 +5256,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B201 Kiwi Birkelundstoppen"
+        "name": "Kiwi Birkelundstoppen"
       },
       "geometry": {
         "type": "Point",
@@ -5269,7 +5269,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S30 Erlevegen"
+        "name": "Erlevegen"
       },
       "geometry": {
         "type": "Point",
@@ -5295,7 +5295,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S31 Rossåsen / Småkjelvene"
+        "name": "Rossåsen / Småkjelvene"
       },
       "geometry": {
         "type": "Point",
@@ -5334,7 +5334,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S32 Tjønnvegen"
+        "name": "Tjønnvegen"
       },
       "geometry": {
         "type": "Point",
@@ -5399,7 +5399,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S33 Foren"
+        "name": "Foren"
       },
       "geometry": {
         "type": "Point",
@@ -5438,7 +5438,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S34 Tau Aktivitetshus"
+        "name": "Tau Aktivitetshus"
       },
       "geometry": {
         "type": "Point",
@@ -5451,7 +5451,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S235 Rådhusgaten"
+        "name": "Rådhusgaten"
       },
       "geometry": {
         "type": "Point",
@@ -5464,7 +5464,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S37 Nesjane"
+        "name": "Nesjane"
       },
       "geometry": {
         "type": "Point",
@@ -5516,7 +5516,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S39 Egersund, v/Dekkbutikken"
+        "name": "Egersund v/Dekkbutikken"
       },
       "geometry": {
         "type": "Point",
@@ -5529,7 +5529,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S40 Spar Eigerøy"
+        "name": "Spar Eigerøy"
       },
       "geometry": {
         "type": "Point",
@@ -5542,7 +5542,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S41 Flassabekken barnehage Ålgård"
+        "name": "Flassabekken barnehage Ålgård"
       },
       "geometry": {
         "type": "Point",
@@ -5581,7 +5581,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S42 Kiwi Nærbø"
+        "name": "Kiwi Nærbø"
       },
       "geometry": {
         "type": "Point",
@@ -5594,7 +5594,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S43 Coop Prix Hellvik"
+        "name": "Coop Prix Hellvik"
       },
       "geometry": {
         "type": "Point",
@@ -5607,7 +5607,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B43 Coop Marked Granvin"
+        "name": "Coop Marked Granvin"
       },
       "geometry": {
         "type": "Point",
@@ -5620,7 +5620,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B202 FV208 / Søre Øyavegen "
+        "name": "Søre Øyavegen "
       },
       "geometry": {
         "type": "Point",
@@ -5633,7 +5633,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B204 Laksevåghallen"
+        "name": "Laksevåghallen"
       },
       "geometry": {
         "type": "Point",
@@ -5646,7 +5646,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B205 Vadmyrahallen "
+        "name": "Vadmyrahallen "
       },
       "geometry": {
         "type": "Point",
@@ -5659,7 +5659,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B207 Hordnesvegen"
+        "name": "Hordnesvegen"
       },
       "geometry": {
         "type": "Point",
@@ -5672,7 +5672,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B208 Landåshallen"
+        "name": "Landåshallen"
       },
       "geometry": {
         "type": "Point",
@@ -5685,7 +5685,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B209 Bøneshallen"
+        "name": "Bøneshallen"
       },
       "geometry": {
         "type": "Point",
@@ -5698,7 +5698,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B210 Bjørnarhallen"
+        "name": "Bjørnarhallen"
       },
       "geometry": {
         "type": "Point",
@@ -5711,7 +5711,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B178 BIR Vaksdal"
+        "name": "BIR Vaksdal"
       },
       "geometry": {
         "type": "Point",
@@ -5724,7 +5724,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B211 Coop Marked Stanghelle"
+        "name": "Coop Marked Stanghelle"
       },
       "geometry": {
         "type": "Point",
@@ -5737,7 +5737,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B180 NGIR Manger"
+        "name": "NGIR Manger"
       },
       "geometry": {
         "type": "Point",
@@ -5750,7 +5750,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B212 Stanghelle"
+        "name": "Stanghelle"
       },
       "geometry": {
         "type": "Point",
@@ -5763,7 +5763,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B206 Øygarden Kulturhus"
+        "name": "Øygarden Kulturhus"
       },
       "geometry": {
         "type": "Point",
@@ -5776,7 +5776,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S44 Gardsvegen 10b"
+        "name": "Gardsvegen 10b"
       },
       "geometry": {
         "type": "Point",
@@ -5789,7 +5789,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S45 Ogna"
+        "name": "Ogna"
       },
       "geometry": {
         "type": "Point",
@@ -5802,7 +5802,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S46 Slettebø, 4373 Egersund"
+        "name": "Slettebø, 4373 Egersund"
       },
       "geometry": {
         "type": "Point",
@@ -5815,7 +5815,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S47 Coop Marked Ualand"
+        "name": "Coop Marked Ualand"
       },
       "geometry": {
         "type": "Point",
@@ -5828,7 +5828,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S48 Coop Prix Sira"
+        "name": "Coop Prix Sira"
       },
       "geometry": {
         "type": "Point",
@@ -5841,7 +5841,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S49 Nygårdsidå 4, 4364 Sirevåg"
+        "name": "Nygårdsidå 4, 4364 Sirevåg"
       },
       "geometry": {
         "type": "Point",
@@ -5854,7 +5854,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B214 Spar Sæbøvik"
+        "name": "Spar Sæbøvik"
       },
       "geometry": {
         "type": "Point",
@@ -5867,7 +5867,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S51 Rauli barnehage"
+        "name": "Rauli barnehage"
       },
       "geometry": {
         "type": "Point",
@@ -5880,7 +5880,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S52 Coop Marked Feda"
+        "name": "Coop Marked Feda"
       },
       "geometry": {
         "type": "Point",
@@ -5893,7 +5893,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S53 Pytten Miljøstasjon Hå kommune"
+        "name": "Pytten Miljøstasjon Hå kommune"
       },
       "geometry": {
         "type": "Point",
@@ -5906,7 +5906,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S54 Kiwi Egersund "
+        "name": "Kiwi Egersund "
       },
       "geometry": {
         "type": "Point",
@@ -5919,7 +5919,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt 179 NGIR Litlås"
+        "name": "NGIR Litlås"
       },
       "geometry": {
         "type": "Point",
@@ -5932,7 +5932,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S55 Matkroken Ulvegjelet"
+        "name": "Matkroken Ulvegjelet"
       },
       "geometry": {
         "type": "Point",
@@ -5945,7 +5945,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S56 Torjusheia"
+        "name": "Torjusheia"
       },
       "geometry": {
         "type": "Point",
@@ -5958,7 +5958,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S57 Smibakken"
+        "name": "Smibakken"
       },
       "geometry": {
         "type": "Point",
@@ -5971,7 +5971,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S58 Kallhammerveien"
+        "name": "Kallhammerveien"
       },
       "geometry": {
         "type": "Point",
@@ -5984,7 +5984,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S59 Mandal Tennisanlegg"
+        "name": "Mandal Tennisanlegg"
       },
       "geometry": {
         "type": "Point",
@@ -5997,7 +5997,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S60 REMA 1000 SØGNE"
+        "name": "REMA 1000 SØGNE"
       },
       "geometry": {
         "type": "Point",
@@ -6010,7 +6010,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt 215 NAV Sveio"
+        "name": "NAV Sveio"
       },
       "geometry": {
         "type": "Point",
@@ -6023,7 +6023,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt 216 Kaland Idrettshall"
+        "name": "Kaland Idrettshall"
       },
       "geometry": {
         "type": "Point",
@@ -6036,7 +6036,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S62 Mortensarmen, Røyneberg"
+        "name": "Mortensarmen, Røyneberg"
       },
       "geometry": {
         "type": "Point",
@@ -6049,7 +6049,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S63 Tjørsvågstrand"
+        "name": "Tjørsvågstrand"
       },
       "geometry": {
         "type": "Point",
@@ -6062,7 +6062,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B217 Marihøna Barnehage"
+        "name": "Marihøna Barnehage"
       },
       "geometry": {
         "type": "Point",
@@ -6075,7 +6075,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B218 Skudeneshavn"
+        "name": "Skudeneshavn"
       },
       "geometry": {
         "type": "Point",
@@ -6088,7 +6088,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B219 Nylundsbakken 1"
+        "name": "Nylundsbakken 1"
       },
       "geometry": {
         "type": "Point",
@@ -6101,7 +6101,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B220 REMA 1000 Manger"
+        "name": "REMA 1000 Manger"
       },
       "geometry": {
         "type": "Point",
@@ -6114,7 +6114,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B221 Kiwi Florvåg"
+        "name": "Kiwi Florvåg"
       },
       "geometry": {
         "type": "Point",
@@ -6127,7 +6127,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B222 KIWI Stangeland"
+        "name": "KIWI Stangeland"
       },
       "geometry": {
         "type": "Point",
@@ -6140,7 +6140,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B223 Presthaug FUS barnehage"
+        "name": "Presthaug FUS barnehage"
       },
       "geometry": {
         "type": "Point",
@@ -6153,7 +6153,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B224 Amanda Barnehage "
+        "name": "Amanda Barnehage "
       },
       "geometry": {
         "type": "Point",
@@ -6166,7 +6166,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B225 Steinhaugane FUS friluftsbarnehage "
+        "name": "Steinhaugane FUS friluftsbarnehage "
       },
       "geometry": {
         "type": "Point",
@@ -6179,7 +6179,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B227 Tjernagelvegen"
+        "name": "Tjernagelvegen"
       },
       "geometry": {
         "type": "Point",
@@ -6192,7 +6192,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B228 Rubbestadneset Idrettslag"
+        "name": "Rubbestadneset Idrettslag"
       },
       "geometry": {
         "type": "Point",
@@ -6205,7 +6205,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B229 Nordbygdene Bondegårdsbarnehage"
+        "name": "Nordbygdene Bondegårdsbarnehage"
       },
       "geometry": {
         "type": "Point",
@@ -6218,7 +6218,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S64 Sola Taxi"
+        "name": "Sola Taxi"
       },
       "geometry": {
         "type": "Point",
@@ -6231,7 +6231,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S65 Betania Bedehus"
+        "name": "Betania Bedehus"
       },
       "geometry": {
         "type": "Point",
@@ -6244,7 +6244,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S66 IRS Miljø IKS "
+        "name": "IRS Miljø IKS "
       },
       "geometry": {
         "type": "Point",
@@ -6257,7 +6257,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S67 IRS Miljø IKS"
+        "name": "IRS Miljø IKS"
       },
       "geometry": {
         "type": "Point",
@@ -6270,7 +6270,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S27 IRS Miljø IKS - Malåna Gjenvinningsstasjon"
+        "name": "IRS Miljø IKS - Malåna Gjenvinningsstasjon"
       },
       "geometry": {
         "type": "Point",
@@ -6283,7 +6283,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B173 BIR Gjenvinningsstasjon Heiane"
+        "name": "BIR Gjenvinningsstasjon Heiane"
       },
       "geometry": {
         "type": "Point",
@@ -6296,7 +6296,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B175 Bir Avd Kvam"
+        "name": "Bir Avd Kvam"
       },
       "geometry": {
         "type": "Point",
@@ -6309,7 +6309,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B226 Slågstemmen Barnehage "
+        "name": "Slågstemmen Barnehage "
       },
       "geometry": {
         "type": "Point",
@@ -6322,7 +6322,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B230 Karmøyhallen"
+        "name": "Karmøyhallen"
       },
       "geometry": {
         "type": "Point",
@@ -6335,7 +6335,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B231 Spar Valen"
+        "name": "Spar Valen"
       },
       "geometry": {
         "type": "Point",
@@ -6348,7 +6348,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S68 Extra Tjelta "
+        "name": "Extra Tjelta "
       },
       "geometry": {
         "type": "Point",
@@ -6361,7 +6361,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S69 Forusparken 1"
+        "name": "Forusparken 1"
       },
       "geometry": {
         "type": "Point",
@@ -6374,7 +6374,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S71 Esso Forus"
+        "name": "Esso Forus"
       },
       "geometry": {
         "type": "Point",
@@ -6387,7 +6387,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S70 Aanen O. Bergsager gate, Lyngdal"
+        "name": "Aanen O. Bergsager gate, Lyngdal"
       },
       "geometry": {
         "type": "Point",
@@ -6400,7 +6400,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S72 Esso Tjernvollkrysset"
+        "name": "Esso Tjernvollkrysset"
       },
       "geometry": {
         "type": "Point",
@@ -6413,7 +6413,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S73 Coop Marked Voll"
+        "name": "Coop Marked Voll"
       },
       "geometry": {
         "type": "Point",
@@ -6426,7 +6426,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S74 Idrettsvegen 1"
+        "name": "Idrettsvegen 1"
       },
       "geometry": {
         "type": "Point",
@@ -6439,7 +6439,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S75 Kjengaren 4"
+        "name": "Kjengaren 4"
       },
       "geometry": {
         "type": "Point",
@@ -6452,7 +6452,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S76 Vikevågveien 131"
+        "name": "Vikevågveien 131"
       },
       "geometry": {
         "type": "Point",
@@ -6465,7 +6465,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B61 Oasen Storsenter"
+        "name": "Oasen Storsenter"
       },
       "geometry": {
         "type": "Point",
@@ -6478,7 +6478,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S77 Dronning Mauds gate 1"
+        "name": "Dronning Mauds gate 1"
       },
       "geometry": {
         "type": "Point",
@@ -6491,7 +6491,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S78 Sandtangen"
+        "name": "Sandtangen"
       },
       "geometry": {
         "type": "Point",
@@ -6504,7 +6504,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S79 Kiwi Ålgård"
+        "name": "Kiwi Ålgård"
       },
       "geometry": {
         "type": "Point",
@@ -6517,7 +6517,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S80 Varhaugvegen 7"
+        "name": "Varhaugvegen 7"
       },
       "geometry": {
         "type": "Point",
@@ -6530,7 +6530,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S81 Sentrumslunden 1"
+        "name": "Sentrumslunden 1"
       },
       "geometry": {
         "type": "Point",
@@ -6543,7 +6543,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S83 Brusand"
+        "name": "Brusand"
       },
       "geometry": {
         "type": "Point",
@@ -6556,7 +6556,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S84 Nærbutikken Tonstad"
+        "name": "Nærbutikken Tonstad"
       },
       "geometry": {
         "type": "Point",
@@ -6569,7 +6569,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S85 Extra Tonstad"
+        "name": "Extra Tonstad"
       },
       "geometry": {
         "type": "Point",
@@ -6582,7 +6582,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S86 \"IRS Miljø IKS - Tonstad Gjenvinningsstasjon\nv/ASVO Sirdal\""
+        "name": "IRS Miljø IKS - Tonstad Gjenvinningsstasjon"
       },
       "geometry": {
         "type": "Point",
@@ -6595,7 +6595,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B213 REMA 1000 Skudeneshavn"
+        "name": "REMA 1000 Skudeneshavn"
       },
       "geometry": {
         "type": "Point",
@@ -6621,7 +6621,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B232 Joker Stolmen"
+        "name": "Joker Stolmen"
       },
       "geometry": {
         "type": "Point",
@@ -6634,7 +6634,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B233 Extra Austevoll"
+        "name": "Extra Austevoll"
       },
       "geometry": {
         "type": "Point",
@@ -6647,7 +6647,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B234 Storestraumen"
+        "name": "Storestraumen"
       },
       "geometry": {
         "type": "Point",
@@ -6660,7 +6660,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S36 Europris Farsund"
+        "name": "Europris Farsund"
       },
       "geometry": {
         "type": "Point",
@@ -6673,7 +6673,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S50 Joker Borhaug"
+        "name": "Joker Borhaug"
       },
       "geometry": {
         "type": "Point",
@@ -6712,7 +6712,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt М159 Sula Frikirke "
+        "name": "Sula Frikirke "
       },
       "geometry": {
         "type": "Point",
@@ -6725,7 +6725,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B39 Hafslo"
+        "name": "Hafslo"
       },
       "geometry": {
         "type": "Point",
@@ -6738,7 +6738,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B235 Coop Extra Os"
+        "name": "Coop Extra Os"
       },
       "geometry": {
         "type": "Point",
@@ -6751,7 +6751,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B236 Parkering Prestegardsskogen"
+        "name": "Parkering Prestegardsskogen"
       },
       "geometry": {
         "type": "Point",
@@ -6764,7 +6764,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B237 Førde / Sveio"
+        "name": "Førde og Sveio"
       },
       "geometry": {
         "type": "Point",
@@ -6777,7 +6777,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Torvhaugan / Solduggsvingen"
+        "name": "Torvhaugan og Solduggsvingen"
       },
       "geometry": {
         "type": "Point",
@@ -6790,7 +6790,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S87 Riska stadion"
+        "name": "Riska stadion"
       },
       "geometry": {
         "type": "Point",
@@ -6803,7 +6803,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S88 Hana Kirke"
+        "name": "Hana Kirke"
       },
       "geometry": {
         "type": "Point",
@@ -6816,7 +6816,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B246 Nærbutikken Holmefjord"
+        "name": "Nærbutikken Holmefjord"
       },
       "geometry": {
         "type": "Point",
@@ -6829,7 +6829,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B247 Dalavegen 23"
+        "name": "Dalavegen 23"
       },
       "geometry": {
         "type": "Point",
@@ -6842,7 +6842,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S90 Amaldus Nielsens gate"
+        "name": "Amaldus Nielsens gate"
       },
       "geometry": {
         "type": "Point",
@@ -6855,7 +6855,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S89 Snarkjøp Skjebstad"
+        "name": "Snarkjøp Skjebstad"
       },
       "geometry": {
         "type": "Point",
@@ -6868,7 +6868,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B248 REMA Kuven Stasjon"
+        "name": "REMA Kuven Stasjon"
       },
       "geometry": {
         "type": "Point",
@@ -6881,7 +6881,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B249 Espira Skåredalen"
+        "name": "Espira Skåredalen"
       },
       "geometry": {
         "type": "Point",
@@ -6894,7 +6894,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S91 Cirkle K Klepp"
+        "name": "Cirkle K Klepp"
       },
       "geometry": {
         "type": "Point",
@@ -6907,7 +6907,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S92 Håbet FUS barnehage "
+        "name": "Håbet FUS barnehage "
       },
       "geometry": {
         "type": "Point",
@@ -6920,7 +6920,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S93 Olaf Isaachsens gate 50"
+        "name": "Olaf Isaachsens gate 50"
       },
       "geometry": {
         "type": "Point",
@@ -6933,7 +6933,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S94 Esso Voll"
+        "name": "Esso Voll"
       },
       "geometry": {
         "type": "Point",
@@ -6946,7 +6946,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B189 Best Eikangervåg"
+        "name": "Best Eikangervåg"
       },
       "geometry": {
         "type": "Point",
@@ -6959,7 +6959,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B194 Godvik barnehage "
+        "name": "Godvik barnehage "
       },
       "geometry": {
         "type": "Point",
@@ -6972,7 +6972,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B157 Omastrand "
+        "name": "Omastrand "
       },
       "geometry": {
         "type": "Point",
@@ -6998,7 +6998,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B249 Birkeland Sokn Osveien"
+        "name": "Birkeland Sokn Osveien"
       },
       "geometry": {
         "type": "Point",
@@ -7011,7 +7011,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B250 Vestre Sælemyr Borettslag "
+        "name": "Vestre Sælemyr Borettslag "
       },
       "geometry": {
         "type": "Point",
@@ -7024,7 +7024,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B251 Thormøhlens gate 30"
+        "name": "Thormøhlens gate 30"
       },
       "geometry": {
         "type": "Point",
@@ -7037,7 +7037,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B252 Wallemsvikveien"
+        "name": "Wallemsvikveien"
       },
       "geometry": {
         "type": "Point",
@@ -7050,7 +7050,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B253 Odins vei"
+        "name": "Odins vei"
       },
       "geometry": {
         "type": "Point",
@@ -7063,7 +7063,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B254 Ulvedalen borettslag"
+        "name": "Ulvedalen borettslag"
       },
       "geometry": {
         "type": "Point",
@@ -7076,7 +7076,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S96 DIM - Rekeland avfallsstasjon (Sokndal)"
+        "name": "DIM - Rekeland avfallsstasjon (Sokndal)"
       },
       "geometry": {
         "type": "Point",
@@ -7089,7 +7089,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S97 KIWI Sokndal"
+        "name": "KIWI Sokndal"
       },
       "geometry": {
         "type": "Point",
@@ -7102,7 +7102,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S98 Kiwi Spangereid "
+        "name": "Kiwi Spangereid "
       },
       "geometry": {
         "type": "Point",
@@ -7115,7 +7115,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S99 AVE Systemer Nærbø"
+        "name": "AVE Systemer Nærbø"
       },
       "geometry": {
         "type": "Point",
@@ -7128,7 +7128,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S100 Tu Skole"
+        "name": "Tu Skole"
       },
       "geometry": {
         "type": "Point",
@@ -7141,7 +7141,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B255 Persson Elektro"
+        "name": "Persson Elektro"
       },
       "geometry": {
         "type": "Point",
@@ -7154,7 +7154,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B256 Blekenberg / solheimslien"
+        "name": "Blekenberg og Solheimslien"
       },
       "geometry": {
         "type": "Point",
@@ -7167,7 +7167,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B33 Sundts veg 136-140"
+        "name": "Sundts veg 136-140"
       },
       "geometry": {
         "type": "Point",
@@ -7180,7 +7180,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B257 Conrad Mohrs Veg"
+        "name": "Conrad Mohrs Veg"
       },
       "geometry": {
         "type": "Point",
@@ -7193,7 +7193,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B258 Tjønnveien Borettslag "
+        "name": "Tjønnveien Borettslag "
       },
       "geometry": {
         "type": "Point",
@@ -7206,7 +7206,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B259 Strønevegen Hagavik"
+        "name": "Strønevegen Hagavik"
       },
       "geometry": {
         "type": "Point",
@@ -7219,7 +7219,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B260 Nordås Barnehage "
+        "name": "Nordås Barnehage "
       },
       "geometry": {
         "type": "Point",
@@ -7232,7 +7232,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B261 Osterøy hallen"
+        "name": "Osterøy hallen"
       },
       "geometry": {
         "type": "Point",
@@ -7245,7 +7245,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B262 Joker Fotlandsvåg"
+        "name": "Joker Fotlandsvåg"
       },
       "geometry": {
         "type": "Point",
@@ -7271,7 +7271,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S101 Spangereid tennisbane"
+        "name": "Spangereid tennisbane"
       },
       "geometry": {
         "type": "Point",
@@ -7284,7 +7284,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B263 Balestrand"
+        "name": "Balestrand"
       },
       "geometry": {
         "type": "Point",
@@ -7310,7 +7310,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B264 Hestaberg"
+        "name": "Hestaberg"
       },
       "geometry": {
         "type": "Point",
@@ -7349,7 +7349,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B265 Lindås Senter"
+        "name": "Lindås Senter"
       },
       "geometry": {
         "type": "Point",
@@ -7362,7 +7362,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B266 Noramix Nyborg"
+        "name": "Noramix Nyborg"
       },
       "geometry": {
         "type": "Point",
@@ -7375,7 +7375,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B134 Kilen ved Vegkryss"
+        "name": "Kilen ved Vegkryss"
       },
       "geometry": {
         "type": "Point",
@@ -7388,7 +7388,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B190 Rema Avaldsnes"
+        "name": "Rema Avaldsnes"
       },
       "geometry": {
         "type": "Point",
@@ -7401,7 +7401,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S16 Agder Olje Kvinesdal "
+        "name": "Agder Olje Kvinesdal "
       },
       "geometry": {
         "type": "Point",
@@ -7414,7 +7414,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B267 Rema Ostereidet"
+        "name": "Rema Ostereidet"
       },
       "geometry": {
         "type": "Point",
@@ -7427,7 +7427,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S102 Kvinesdal Bobilparkerring"
+        "name": "Kvinesdal Bobilparkerring"
       },
       "geometry": {
         "type": "Point",
@@ -7440,7 +7440,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S103 Kvinesdal Stadion"
+        "name": "Kvinesdal Stadion"
       },
       "geometry": {
         "type": "Point",
@@ -7453,7 +7453,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S104 Industrigata 14"
+        "name": "Industrigata 14"
       },
       "geometry": {
         "type": "Point",
@@ -7466,7 +7466,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B268 Steinestøveien "
+        "name": "Steinestøveien "
       },
       "geometry": {
         "type": "Point",
@@ -7505,7 +7505,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B269 Etne"
+        "name": "Etne"
       },
       "geometry": {
         "type": "Point",
@@ -7518,7 +7518,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B270 Europris Ølensvåg"
+        "name": "Europris Ølensvåg"
       },
       "geometry": {
         "type": "Point",
@@ -7531,7 +7531,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B272 Joker Vats"
+        "name": "Joker Vats"
       },
       "geometry": {
         "type": "Point",
@@ -7544,7 +7544,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B271 Kiwi Isvik"
+        "name": "Kiwi Isvik"
       },
       "geometry": {
         "type": "Point",
@@ -7557,7 +7557,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B102 Salhus fotballbane"
+        "name": "Salhus fotballbane"
       },
       "geometry": {
         "type": "Point",
@@ -7570,7 +7570,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B273 Kanalveien"
+        "name": "Kanalveien"
       },
       "geometry": {
         "type": "Point",
@@ -7596,7 +7596,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O02 Kiwi Refsnes "
+        "name": "Kiwi Refsnes "
       },
       "geometry": {
         "type": "Point",
@@ -7609,7 +7609,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O03 Bjerget"
+        "name": "Bjerget"
       },
       "geometry": {
         "type": "Point",
@@ -7622,7 +7622,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O04 Liertoppen kjøpesenter "
+        "name": "Liertoppen kjøpesenter "
       },
       "geometry": {
         "type": "Point",
@@ -7635,7 +7635,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O05 Mjelløs Stadion"
+        "name": "Mjelløs Stadion"
       },
       "geometry": {
         "type": "Point",
@@ -7648,7 +7648,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O06 Nedre torg"
+        "name": "Nedre torg"
       },
       "geometry": {
         "type": "Point",
@@ -7661,7 +7661,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O07 Skiptvet kommune "
+        "name": "Skiptvet kommune "
       },
       "geometry": {
         "type": "Point",
@@ -7674,7 +7674,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S38 Espira Sandtoppen "
+        "name": "Espira Sandtoppen "
       },
       "geometry": {
         "type": "Point",
@@ -7687,7 +7687,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O08 KIWI Nybruveien"
+        "name": "KIWI Nybruveien"
       },
       "geometry": {
         "type": "Point",
@@ -7700,7 +7700,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O09 Gerd T. Martinsen Barneutstyr"
+        "name": "Gerd T. Martinsen Barneutstyr"
       },
       "geometry": {
         "type": "Point",
@@ -7713,7 +7713,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O10 KIWI Skoppum"
+        "name": "KIWI Skoppum"
       },
       "geometry": {
         "type": "Point",
@@ -7726,7 +7726,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O11 Henrich Gerners gate"
+        "name": "Henrich Gerners gate"
       },
       "geometry": {
         "type": "Point",
@@ -7739,7 +7739,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O13 Kolbotn kjøpesenter"
+        "name": "Kolbotn kjøpesenter"
       },
       "geometry": {
         "type": "Point",
@@ -7752,7 +7752,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O12 Parkeringsplass Våler Ungdomskole "
+        "name": "Parkeringsplass Våler Ungdomskole "
       },
       "geometry": {
         "type": "Point",
@@ -7765,7 +7765,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O14 Rema 1000 Korsegården "
+        "name": "Rema 1000 Korsegården "
       },
       "geometry": {
         "type": "Point",
@@ -7778,7 +7778,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O15 Spydberg Stadion parkering"
+        "name": "Spydberg Stadion parkering"
       },
       "geometry": {
         "type": "Point",
@@ -7791,7 +7791,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O16 Rema 1000 Thorøya"
+        "name": "Rema 1000 Thorøya"
       },
       "geometry": {
         "type": "Point",
@@ -7804,7 +7804,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O17 Rema 1000 Svarstad"
+        "name": "Rema 1000 Svarstad"
       },
       "geometry": {
         "type": "Point",
@@ -7817,7 +7817,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O18 SPAR Svarstad"
+        "name": "SPAR Svarstad"
       },
       "geometry": {
         "type": "Point",
@@ -7830,7 +7830,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O19 Kiwi Vestskogen"
+        "name": "Kiwi Vestskogen"
       },
       "geometry": {
         "type": "Point",
@@ -7843,7 +7843,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O20 Stovner senter"
+        "name": "Stovner senter"
       },
       "geometry": {
         "type": "Point",
@@ -7856,7 +7856,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O21 Kiwi Bølerlia"
+        "name": "Kiwi Bølerlia"
       },
       "geometry": {
         "type": "Point",
@@ -7869,7 +7869,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O22 Herkules kjøpesenter"
+        "name": "Herkules kjøpesenter"
       },
       "geometry": {
         "type": "Point",
@@ -7882,7 +7882,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O23 IFORM treningsenter Porsgrunn"
+        "name": "IFORM treningsenter Porsgrunn"
       },
       "geometry": {
         "type": "Point",
@@ -7895,7 +7895,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O24 Joker Abildsø"
+        "name": "Joker Abildsø"
       },
       "geometry": {
         "type": "Point",
@@ -7908,7 +7908,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O25 Grøstad Bilverksted "
+        "name": "Grøstad Bilverksted "
       },
       "geometry": {
         "type": "Point",
@@ -7921,7 +7921,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O26 Parkeringsplass Askimhallen"
+        "name": "Parkeringsplass Askimhallen"
       },
       "geometry": {
         "type": "Point",
@@ -7934,7 +7934,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O27 Stop Tune Kjøpesenter"
+        "name": "Stop Tune Kjøpesenter"
       },
       "geometry": {
         "type": "Point",
@@ -7947,7 +7947,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O28 Esso Råde"
+        "name": "Esso Råde"
       },
       "geometry": {
         "type": "Point",
@@ -7960,7 +7960,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O29 Storbyen Kjøpesenter "
+        "name": "Storbyen Kjøpesenter "
       },
       "geometry": {
         "type": "Point",
@@ -7973,7 +7973,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O30 Læringsverkstedet Askim Solkollen barnehage"
+        "name": "Læringsverkstedet Askim Solkollen barnehage"
       },
       "geometry": {
         "type": "Point",
@@ -7986,7 +7986,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O31 Parkeringsplass Høglivegen"
+        "name": "Parkeringsplass Høglivegen"
       },
       "geometry": {
         "type": "Point",
@@ -7999,7 +7999,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O32 Hunnbakken"
+        "name": "Hunnbakken"
       },
       "geometry": {
         "type": "Point",
@@ -8012,7 +8012,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O33 Borge ungdomskole"
+        "name": "Borge ungdomskole"
       },
       "geometry": {
         "type": "Point",
@@ -8025,7 +8025,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O34 Lundheimveien"
+        "name": "Lundheimveien"
       },
       "geometry": {
         "type": "Point",
@@ -8038,7 +8038,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O36 Blåveisåsen"
+        "name": "Blåveisåsen"
       },
       "geometry": {
         "type": "Point",
@@ -8051,7 +8051,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O35 Gamlebyveien/Torsnesveien - P-plass"
+        "name": "Gamlebyveien/Torsnesveien - P-plass"
       },
       "geometry": {
         "type": "Point",
@@ -8064,7 +8064,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O37 Lagnøyåsen Barnehage "
+        "name": "Lagnøyåsen Barnehage "
       },
       "geometry": {
         "type": "Point",
@@ -8077,7 +8077,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O38 Peer Gynt Matkroken "
+        "name": "Peer Gynt Matkroken "
       },
       "geometry": {
         "type": "Point",
@@ -8090,7 +8090,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O39 Rema 1000 Notodden "
+        "name": "Rema 1000 Notodden "
       },
       "geometry": {
         "type": "Point",
@@ -8103,7 +8103,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O37 Søsterdalen"
+        "name": "Søsterdalen"
       },
       "geometry": {
         "type": "Point",
@@ -8116,7 +8116,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O40 Coop Extra Tvedestrand"
+        "name": "Coop Extra Tvedestrand"
       },
       "geometry": {
         "type": "Point",
@@ -8129,7 +8129,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O41 Solberg"
+        "name": "Solberg"
       },
       "geometry": {
         "type": "Point",
@@ -8142,7 +8142,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O42 Vestrevei"
+        "name": "Vestrevei"
       },
       "geometry": {
         "type": "Point",
@@ -8155,7 +8155,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O43 Kiwi Vegårdshei"
+        "name": "Kiwi Vegårdshei"
       },
       "geometry": {
         "type": "Point",
@@ -8168,7 +8168,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O45 Kiwi Nedenes"
+        "name": "Kiwi Nedenes"
       },
       "geometry": {
         "type": "Point",
@@ -8181,7 +8181,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O46 Plantasjen Arendal "
+        "name": "Plantasjen Arendal "
       },
       "geometry": {
         "type": "Point",
@@ -8194,7 +8194,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O47 Europris Nedenes"
+        "name": "Europris Nedenes"
       },
       "geometry": {
         "type": "Point",
@@ -8207,7 +8207,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O48 Joker Nordagutu"
+        "name": "Joker Nordagutu"
       },
       "geometry": {
         "type": "Point",
@@ -8220,7 +8220,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B107 Parkveien, v/returpunkt"
+        "name": "Parkveien, v/returpunkt"
       },
       "geometry": {
         "type": "Point",
@@ -8233,7 +8233,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O49 Spar Blakstad "
+        "name": "Spar Blakstad "
       },
       "geometry": {
         "type": "Point",
@@ -8246,7 +8246,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O50 Esso Osedalen "
+        "name": "Esso Osedalen "
       },
       "geometry": {
         "type": "Point",
@@ -8259,7 +8259,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O51 Stemmen gjenvinningsstasjon"
+        "name": "Stemmen gjenvinningsstasjon"
       },
       "geometry": {
         "type": "Point",
@@ -8272,7 +8272,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O44 Langmoen Avfallsanlegg"
+        "name": "Langmoen Avfallsanlegg"
       },
       "geometry": {
         "type": "Point",
@@ -8285,7 +8285,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O54 Brødrene Myhre "
+        "name": "Brødrene Myhre "
       },
       "geometry": {
         "type": "Point",
@@ -8298,7 +8298,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O55 Mekonomen bilverksted "
+        "name": "Mekonomen bilverksted "
       },
       "geometry": {
         "type": "Point",
@@ -8311,7 +8311,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O56 Hønefoss Arena "
+        "name": "Hønefoss Arena "
       },
       "geometry": {
         "type": "Point",
@@ -8324,7 +8324,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O57 Kongssenteret "
+        "name": "Kongssenteret "
       },
       "geometry": {
         "type": "Point",
@@ -8337,7 +8337,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B278 Hestmyrvegen"
+        "name": "Hestmyrvegen"
       },
       "geometry": {
         "type": "Point",
@@ -8350,7 +8350,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O59 Rema Langeland"
+        "name": "Rema Langeland"
       },
       "geometry": {
         "type": "Point",
@@ -8363,7 +8363,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O58 Rema 1000 Årnes "
+        "name": "Rema 1000 Årnes "
       },
       "geometry": {
         "type": "Point",
@@ -8376,7 +8376,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O60 Joker Austmarka "
+        "name": "Joker Austmarka "
       },
       "geometry": {
         "type": "Point",
@@ -8389,7 +8389,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O61 Joker Fenstad"
+        "name": "Joker Fenstad"
       },
       "geometry": {
         "type": "Point",
@@ -8402,7 +8402,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O62 Læringsverkstedet Øvre Neskollen Naturbarnehage"
+        "name": "Læringsverkstedet Øvre Neskollen Naturbarnehage"
       },
       "geometry": {
         "type": "Point",
@@ -8415,7 +8415,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O63 Parkeringsplass Storlinna"
+        "name": "Parkeringsplass Storlinna"
       },
       "geometry": {
         "type": "Point",
@@ -8428,7 +8428,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O64 Rema 1000 Ask / Gjerdrum "
+        "name": "Rema 1000 Ask / Gjerdrum "
       },
       "geometry": {
         "type": "Point",
@@ -8441,7 +8441,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O65 Jarenstranda 11"
+        "name": "Jarenstranda 11"
       },
       "geometry": {
         "type": "Point",
@@ -8454,7 +8454,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O66 Åneby Senter"
+        "name": "Åneby Senter"
       },
       "geometry": {
         "type": "Point",
@@ -8467,7 +8467,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O67 Parkering ved Idrettsveien"
+        "name": "Parkering ved Idrettsveien"
       },
       "geometry": {
         "type": "Point",
@@ -8480,7 +8480,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O68 Kremmertorget kjøpesenter"
+        "name": "Kremmertorget kjøpesenter"
       },
       "geometry": {
         "type": "Point",
@@ -8493,7 +8493,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O69 Kiwi Hanstad "
+        "name": "Kiwi Hanstad "
       },
       "geometry": {
         "type": "Point",
@@ -8506,7 +8506,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O71 Spar Tangen"
+        "name": "Spar Tangen"
       },
       "geometry": {
         "type": "Point",
@@ -8519,7 +8519,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O72 Rema 1000 Løten"
+        "name": "Rema 1000 Løten"
       },
       "geometry": {
         "type": "Point",
@@ -8532,7 +8532,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O70 Rema 1000 (Elgen) Elverum"
+        "name": "Rema 1000 (Elgen) Elverum"
       },
       "geometry": {
         "type": "Point",
@@ -8545,7 +8545,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O73 Fåvang Miljøstasjon - MGR"
+        "name": "Fåvang Miljøstasjon - MGR"
       },
       "geometry": {
         "type": "Point",
@@ -8558,7 +8558,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S105 Espira Fjelsanden Barnehage"
+        "name": "Espira Fjelsanden Barnehage"
       },
       "geometry": {
         "type": "Point",
@@ -8571,7 +8571,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O74 Frya Miljøstasjon - MGR"
+        "name": "Frya Miljøstasjon - MGR"
       },
       "geometry": {
         "type": "Point",
@@ -8584,7 +8584,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B104 Alrek Studentboliger "
+        "name": "Alrek Studentboliger "
       },
       "geometry": {
         "type": "Point",
@@ -8597,7 +8597,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B106 Idrettsveien / BRANN stadion "
+        "name": "BRANN stadion "
       },
       "geometry": {
         "type": "Point",
@@ -8610,7 +8610,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B105 Borettslaget Aurdalen Terrasse "
+        "name": "Borettslaget Aurdalen Terrasse "
       },
       "geometry": {
         "type": "Point",
@@ -8623,7 +8623,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O52 Rustmoen Miljøstasjon - MGR"
+        "name": "Rustmoen Miljøstasjon - MGR"
       },
       "geometry": {
         "type": "Point",
@@ -8636,7 +8636,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B112 Vestlund borettslag "
+        "name": "Vestlund borettslag "
       },
       "geometry": {
         "type": "Point",
@@ -8649,7 +8649,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O53 Parkeringsplass vestsideveien "
+        "name": "Parkeringsplass vestsideveien "
       },
       "geometry": {
         "type": "Point",
@@ -8662,7 +8662,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B172 Wernerholmsvei "
+        "name": "Werner Holms vei "
       },
       "geometry": {
         "type": "Point",
@@ -8675,7 +8675,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O75 EXTRA Brandbu"
+        "name": "EXTRA Brandbu"
       },
       "geometry": {
         "type": "Point",
@@ -8688,7 +8688,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O76 Joker Fall"
+        "name": "Joker Fall"
       },
       "geometry": {
         "type": "Point",
@@ -8701,7 +8701,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O77 Stegen gjennvinningstasjon"
+        "name": "Stegen gjennvinningstasjon"
       },
       "geometry": {
         "type": "Point",
@@ -8714,7 +8714,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B203 Bunnpris Damsgård"
+        "name": "Bunnpris Damsgård"
       },
       "geometry": {
         "type": "Point",
@@ -8727,7 +8727,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O78 Joker Vallset"
+        "name": "Joker Vallset"
       },
       "geometry": {
         "type": "Point",
@@ -8740,7 +8740,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O79 Kvam Miljøstasjon - MGR"
+        "name": "Kvam Miljøstasjon - MGR"
       },
       "geometry": {
         "type": "Point",
@@ -8766,7 +8766,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O80 Stangehallen"
+        "name": "Stangehallen"
       },
       "geometry": {
         "type": "Point",
@@ -8792,7 +8792,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O81 Olrud Handelspark "
+        "name": "Olrud Handelspark "
       },
       "geometry": {
         "type": "Point",
@@ -8805,7 +8805,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O82 Ved Rosenlund Bydelsenter "
+        "name": "Rosenlund Bydelsenter "
       },
       "geometry": {
         "type": "Point",
@@ -8818,7 +8818,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O83 Marlermesterne Indre Østland AS"
+        "name": "Marlermesterne Indre Østland AS"
       },
       "geometry": {
         "type": "Point",
@@ -8831,7 +8831,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O85 Kiwi Gausdal "
+        "name": "Kiwi Gausdal "
       },
       "geometry": {
         "type": "Point",
@@ -8844,7 +8844,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O86 GLØR Roverudmyra miljøpark"
+        "name": "GLØR Roverudmyra miljøpark"
       },
       "geometry": {
         "type": "Point",
@@ -8857,7 +8857,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O87 Sirkula Kretsløpsparken "
+        "name": "Sirkula Kretsløpsparken "
       },
       "geometry": {
         "type": "Point",
@@ -8870,7 +8870,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O88 Sirkula Heggvin avfallsanlegg "
+        "name": "Sirkula Heggvin avfallsanlegg "
       },
       "geometry": {
         "type": "Point",
@@ -8883,7 +8883,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt S61Solstrålen Barnehage "
+        "name": "Solstrålen Barnehage "
       },
       "geometry": {
         "type": "Point",
@@ -8896,7 +8896,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O89 GLØR Gausdal gjenvinningsstasjon"
+        "name": "GLØR Gausdal gjenvinningsstasjon"
       },
       "geometry": {
         "type": "Point",
@@ -8909,7 +8909,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O90 GLØR Øyer gjenvinningsstasjon "
+        "name": "GLØR Øyer gjenvinningsstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -8922,7 +8922,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O91 Sirkula Brumunddal gjenvinningsstasjon "
+        "name": "Sirkula Brumunddal gjenvinningsstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -8935,7 +8935,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O92 Sirkula Stange gjenvinningsstasjon "
+        "name": "Sirkula Stange gjenvinningsstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -8948,7 +8948,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O93 Sirkula Moelv gjenvinningsstasjon "
+        "name": "Sirkula Moelv gjenvinningsstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -8961,7 +8961,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt B274 Extra Moksheim"
+        "name": "Extra Moksheim"
       },
       "geometry": {
         "type": "Point",
@@ -8974,7 +8974,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O94 HRA Trollmyra gjenvinningsstasjon "
+        "name": "Trollmyra gjenvinningsstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -8987,7 +8987,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O95 HRA Svingerud gjenvinningsstasjon "
+        "name": "Svingerud gjenvinningsstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9000,7 +9000,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O96 HRA Roa gjenvinningsstasjon "
+        "name": "Roa gjenvinningsstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9013,7 +9013,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Florø Tennisklubb, Havrenesvegen 2"
+        "name": "Florø Tennisklubb"
       },
       "geometry": {
         "type": "Point",
@@ -9026,7 +9026,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O97 HRA Mohagen gjenvinningsstasjon "
+        "name": "Mohagen gjenvinningsstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9039,7 +9039,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O98 Varig Lillehammer (Glør)"
+        "name": "Varig Lillehammer (Glør)"
       },
       "geometry": {
         "type": "Point",
@@ -9052,7 +9052,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O99 HRA Sokna gjenvinningsstasjon"
+        "name": "Sokna gjenvinningsstasjon"
       },
       "geometry": {
         "type": "Point",
@@ -9065,7 +9065,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O100 HRA Nes gjenvinningsstasjon "
+        "name": "Nes gjenvinningsstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9078,7 +9078,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O101 SØIR Haugedalen gjenvinningsstasjon "
+        "name": "Haugedalen gjenvinningsstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9091,7 +9091,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O102 SØIR Hornmoen gjenvinningsstasjon "
+        "name": "Hornmoen gjenvinningsstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9104,7 +9104,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O103 Horisont Dalborgmarka miljøstasjon"
+        "name": "Horisont Dalborgmarka miljøstasjon"
       },
       "geometry": {
         "type": "Point",
@@ -9117,7 +9117,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O104 Horisont Biri miljøstasjon "
+        "name": "Horisont Biri miljøstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9130,7 +9130,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O105 Horisont Prøven miljøstasjon "
+        "name": "Horisont Prøven miljøstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9143,7 +9143,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O106 Horisont Kraby miljøstasjon "
+        "name": "Horisont Kraby miljøstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9156,7 +9156,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O107 Horisont Hov miljøstasjon "
+        "name": "Horisont Hov miljøstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9169,7 +9169,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O108 SØIR Trysil gjenvinningsstasjon "
+        "name": "Trysil gjenvinningsstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9182,7 +9182,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O109 Horisont Vinjarmoen miljøstasjon "
+        "name": "Horisont Vinjarmoen miljøstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9195,7 +9195,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O110 Horisont Åmot miljøstasjon "
+        "name": "Horisont Åmot miljøstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9208,7 +9208,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O84 Horisont Snertingdal miljøstasjon "
+        "name": "Horisont Snertingdal miljøstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9221,7 +9221,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O105 Horisont Prøven miljøstasjon "
+        "name": "Horisont Prøven miljøstasjon "
       },
       "geometry": {
         "type": "Point",
@@ -9234,7 +9234,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Punkt O111 Stangeveien borettslag"
+        "name": "Stangeveien borettslag"
       },
       "geometry": {
         "type": "Point",
@@ -9247,7 +9247,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Flora VGS, Professor Gjelsvikveg 20"
+        "name": "Flora VGS"
       },
       "geometry": {
         "type": "Point",
