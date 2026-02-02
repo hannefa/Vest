@@ -95,15 +95,16 @@ map.on('load', () => {
     });
   });
 
-  map.on('click', 'unclustered-point', (e) => {
-    const coordinates = e.features[0].geometry.coordinates.slice();
-    const name = e.features[0].properties.name;
+map.on("click", "clusters", (e) => {
+  const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
+  const clusterId = features[0].properties.cluster_id;
 
-    new mapboxgl.Popup()
-      .setLngLat(coordinates)
-      .setHTML(`<strong>${name}</strong>`)
-      .addTo(map);
+  map.getSource("utplasseringer").getClusterExpansionZoom(clusterId, (err, zoom) => {
+    if (err) return;
+    map.easeTo({ center: features[0].geometry.coordinates, zoom });
   });
+});
+
 });
 </script>
 </body>
