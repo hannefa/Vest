@@ -97,7 +97,7 @@ map.addLayer({
         source: "utplasseringer",
         filter: ["!", ["has", "point_count"]],
         paint: {
-          "circle-color": "#2563eb",
+          "circle-color": "#743492",
           "circle-radius": 6,
           "circle-stroke-color": "#ffffff",
           "circle-stroke-width": 1
@@ -162,7 +162,12 @@ map.addLayer({
 
         popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
           .setLngLat(coords)
-          .setHTML(html)
+          .setHTML(`
+  <div class="popup">
+    <div class="popup-title">${label}</div>
+    <div class="popup-sub">Fileks-boks</div>
+  </div>
+`)
           .addTo(map);
       });
 
