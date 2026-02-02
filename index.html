@@ -11,6 +11,29 @@
   <style>
     html, body { height: 100%; margin: 0; padding: 0; }
     #map { width: 100%; height: 100vh; }
+
+    /* Popup styling (matcher Fileks uttrykket) */
+    .mapboxgl-popup-content {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+    .popup-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #6F3A8A;
+      line-height: 1.2;
+    }
+    .popup-sub {
+      font-size: 12px;
+      color: #6B7280;
+      margin-top: 3px;
+    }
+    .mapboxgl-popup-tip {
+      border-top-color: #ffffff !important;
+    }
   </style>
 </head>
 <body>
@@ -20,15 +43,13 @@
     // --- 1) Mapbox token + style ---
     mapboxgl.accessToken = "pk.eyJ1IjoiaGFhbm5uZWVlZSIsImEiOiJjbWE0Nnp4OWwwM3NxMmlxejNudXBwa2I3In0.EzmmIDuSMF5JupYeej9NoA";
 
-   const STYLE_URL = "mapbox://styles/haannneeee/cml51ofqo000j01qv3ggv77vd";
-    
+    const STYLE_URL   = "mapbox://styles/haannneeee/cml51ofqo000j01qv3ggv77vd";
     const GEOJSON_URL = "./klesbokser_clean_stripped.geojson";
 
     // --- 2) Hvilket felt i GeoJSON som inneholder navnet? ---
-    // Hvis du vet hvilket property-felt som er navnet, sett det her:
-    // Eksempel: const NAME_PROP = "navn";
-    // Hvis du ikke vet, lar vi den prøve en liste.
-    const NAME_PROP = null; // sett til f.eks. "navn" når du vet hva feltet heter
+    // Sett gjerne dette når du vet riktig property, f.eks:
+    // const NAME_PROP = "navn";
+    const NAME_PROP = null;
 
     const map = new mapboxgl.Map({
       container: "map",
@@ -50,30 +71,32 @@
       });
 
       // --- Cluster-sirkler ---
-map.addLayer({
-  id: "clusters",
-  type: "circle",
-  source: "utplasseringer",
-  filter: ["has", "point_count"],
-  paint: {
-    "circle-color": [
-      "step",
-      ["get", "point_count"],
-      "#4B1F66",   // små clusters
-      10, "#6F3A8A", // medium
-      30, "#9c6bb3"  // store
-    ],
-    "circle-radius": [
-      "step",
-      ["get", "point_count"],
-      18,
-      10, 22,
-      30, 28
-    ],
-    "circle-stroke-color": "#FFFFFF",
-    "circle-stroke-width": 2
-  }
-});
+      map.addLayer({
+        id: "clusters",
+        type: "circle",
+        source: "utplasseringer",
+        filter: ["has", "point_count"],
+        paint: {
+          // små -> lysere, store -> mørkere (mer intuitivt)
+          "circle-color": [
+            "step",
+            ["get", "point_count"],
+            "#9c6bb3",     // 1–9
+            10, "#6F3A8A", // 10–29
+            30, "#4B1F66"  // 30+
+          ],
+          "circle-radius": [
+            "step",
+            ["get", "point_count"],
+            18,
+            10, 22,
+            30, 28
+          ],
+          "circle-stroke-color": "#FFFFFF",
+          "circle-stroke-width": 2
+        }
+      });
+
       // --- Tall i clusters ---
       map.addLayer({
         id: "cluster-count",
@@ -83,24 +106,28 @@ map.addLayer({
         layout: {
           "text-field": "{point_count_abbreviated}",
           "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
-          "text-size": 12
+          "text-size": 13
         },
         paint: {
-          "text-color": "#ffffff"
+          "text-color": "#ffffff",
+          "text-halo-color": "#4B1F66",
+          "text-halo-width": 1
         }
       });
 
       // --- Enkeltpunkter (ikke cluster) ---
+      // minzoom gjør at du ikke ser enkeltpunkter når du er zoomet ut.
       map.addLayer({
         id: "unclustered-point",
         type: "circle",
         source: "utplasseringer",
         filter: ["!", ["has", "point_count"]],
+        minzoom: 14,
         paint: {
           "circle-color": "#743492",
           "circle-radius": 6,
           "circle-stroke-color": "#ffffff",
-          "circle-stroke-width": 1
+          "circle-stroke-width": 1.5
         }
       });
 
@@ -110,9 +137,8 @@ map.addLayer({
         if (!features.length) return;
 
         const clusterId = features[0].properties.cluster_id;
-        const source = map.getSource("utplasseringer");
 
-        source.getClusterExpansionZoom(clusterId, (err, zoom) => {
+        map.getSource("utplasseringer").getClusterExpansionZoom(clusterId, (err, zoom) => {
           if (err) return;
           map.easeTo({
             center: features[0].geometry.coordinates,
@@ -131,14 +157,13 @@ map.addLayer({
       function resolveLabel(props) {
         if (!props) return "";
 
-        // Hvis NAME_PROP er satt, bruk den
         if (NAME_PROP && props[NAME_PROP] != null) return String(props[NAME_PROP]);
 
-        // Ellers prøv noen vanlige feltnavn
         const candidates = ["navn", "name", "title", "sted", "lokasjon", "adresse", "label"];
         for (const key of candidates) {
-          if (props[key] != null && String(props[key]).trim() !== "") {
-            return String(props[key]);
+          const v = props[key];
+          if (v != null && String(v).trim() !== "") {
+            return String(v);
           }
         }
         return "";
@@ -152,22 +177,16 @@ map.addLayer({
         const coords = f.geometry.coordinates.slice();
         const label = resolveLabel(f.properties);
 
-        // Hvis label er tom, viser vi i det minste noe for debugging
-        const html = label
-          ? `<strong>${label}</strong>`
-          : `<strong>(mangler navn)</strong><div style="font-size:12px;opacity:.8">Sjekk NAME_PROP i index.html</div>`;
-
-        // Fjern gammel popup før vi lager ny
         if (popup) popup.remove();
 
         popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
           .setLngLat(coords)
           .setHTML(`
-  <div class="popup">
-    <div class="popup-title">${label}</div>
-    <div class="popup-sub">Fileks-boks</div>
-  </div>
-`)
+            <div class="popup">
+              <div class="popup-title">${label || "Ukjent navn"}</div>
+              <div class="popup-sub">Fileks-boks</div>
+            </div>
+          `)
           .addTo(map);
       });
 
@@ -180,8 +199,6 @@ map.addLayer({
 
     // --- Enkel feilhåndtering (nyttig ved blankt kart) ---
     map.on("error", (e) => {
-      // Feil vises i konsollen. Hvis det er 401/403 -> token/restriksjon.
-      // Hvis det er 404 på geojson -> filnavn/path feil.
       console.error("Map error:", e && e.error ? e.error : e);
     });
   </script>
