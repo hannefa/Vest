@@ -39,6 +39,27 @@
 <body>
   <div id="map"></div>
 
+  function showError(msg) {
+  let el = document.getElementById("map-error");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "map-error";
+    el.style.cssText = `
+      position: fixed; left: 12px; bottom: 12px; z-index: 9999;
+      background: rgba(17,24,39,.92); color: #fff; padding: 10px 12px;
+      border-radius: 10px; font: 12px/1.4 system-ui, sans-serif; max-width: 520px;
+    `;
+    document.body.appendChild(el);
+  }
+  el.textContent = msg;
+}
+
+map.on("error", (e) => {
+  const err = e && e.error ? e.error : e;
+  console.error("Map error:", err);
+  showError("Mapbox-feil: " + (err && err.message ? err.message : String(err)));
+});
+
   <script>
     // --- 1) Mapbox token + style ---
     mapboxgl.accessToken = "pk.eyJ1IjoiaGFhbm5uZWVlZSIsImEiOiJjbWE0Nnp4OWwwM3NxMmlxejNudXBwa2I3In0.EzmmIDuSMF5JupYeej9NoA";
