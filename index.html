@@ -70,7 +70,7 @@ map.on("error", (e) => {
     // --- 1) Mapbox token + style ---
     mapboxgl.accessToken = "pk.eyJ1IjoiaGFhbm5uZWVlZSIsImEiOiJjbWE0Nnp4OWwwM3NxMmlxejNudXBwa2I3In0.EzmmIDuSMF5JupYeej9NoA";
 
-    const STYLE_URL = "mapbox://styles/haannneeee/cml51ofqo000j01qv3ggv77vd";
+    const STYLE_URL = "mapbox://styles/mapbox/streets-v12";
     const GEOJSON_URL = "./klesbokser_clean_stripped.geojson";
    
     // --- 2) Hvilket felt i GeoJSON som inneholder navnet? ---
@@ -78,12 +78,13 @@ map.on("error", (e) => {
     // const NAME_PROP = "navn";
     const NAME_PROP = null;
 
-    const map = new mapboxgl.Map({
-      container: "map",
-      style: STYLE_URL,
-      center: [10.75, 59.91],
-      zoom: 5
-    });
+ const map = new mapboxgl.Map({
+  container: "map",
+  style: "mapbox://styles/mapbox/streets-v12",
+  center: [10.75, 59.91],
+  zoom: 5
+});
+
 
     map.addControl(new mapboxgl.NavigationControl({ showCompass: true }), "top-right");
 
