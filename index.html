@@ -53,6 +53,12 @@
   }
   el.textContent = msg;
 }
+map.on("style.load", () => {
+  const s = map.getStyle();
+  console.log("STYLE name:", s.name);
+  console.log("Layers:", s.layers?.length);
+  console.log("Sources:", Object.keys(s.sources || {}));
+});
 
 map.on("error", (e) => {
   const err = e && e.error ? e.error : e;
