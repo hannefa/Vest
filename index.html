@@ -1,111 +1,171 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="no">
 <head>
   <meta charset="utf-8" />
-  <title>Klesinnsamlingskart</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
-  <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet" />
+  <title>Vest – kart</title>
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+
   <style>
-    html, body { margin: 0; padding: 0; height: 100%; }
-    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    html, body { height: 100%; margin: 0; padding: 0; }
+    #map { width: 100%; height: 100vh; }
   </style>
 </head>
 <body>
-<div id="map"></div>
-<script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiaGFhbm5uZWVlZSIsImEiOiJjbWE0Nnp4OWwwM3NxMmlxejNudXBwa2I3In0.EzmmIDuSMF5JupYeej9NoA';
+  <div id="map"></div>
 
-const map = new mapboxgl.Map({
-  container: 'map',
-  style: 'mapbox://styles/haannneeee/ckabc123xyz456def789ghi',
-  center: [10.75, 59.91],
-  zoom: 5
-});
+  <script>
+    // --- 1) Mapbox token + style ---
+    mapboxgl.accessToken = "pk.eyJ1IjoiaGFhbm5uZWVlZSIsImEiOiJjbWE0Nnp4OWwwM3NxMmlxejNudXBwa2I3In0.EzmmIDuSMF5JupYeej9NoA";
 
-map.on('load', () => {
-  map.addSource('lokasjoner', {
-    type: 'geojson',
-    data: 'klesbokser_clean_stripped.geojson',
-    cluster: true,
-    clusterMaxZoom: 14,
-    clusterRadius: 50
-  });
+    const STYLE_URL = "mapbox://styles/haannneeee/cmh90nodb00ea01s700qyfxh4";
+    const GEOJSON_URL = "./klesbokser_clean_stripped.geojson";
 
-  map.addLayer({
-    id: 'clusters',
-    type: 'circle',
-    source: 'lokasjoner',
-    filter: ['has', 'point_count'],
-    minzoom: 0,
-    maxzoom: 12,
-    paint: {
-      'circle-color': '#743492',
-      'circle-radius': [
-        'step',
-        ['get', 'point_count'],
-        15, 10,
-        20, 30,
-        25
-      ],
-      'circle-stroke-width': 2,
-      'circle-stroke-color': '#FFFFFF'
-    }
-  });
+    // --- 2) Hvilket felt i GeoJSON som inneholder navnet? ---
+    // Hvis du vet hvilket property-felt som er navnet, sett det her:
+    // Eksempel: const NAME_PROP = "navn";
+    // Hvis du ikke vet, lar vi den prøve en liste.
+    const NAME_PROP = null; // sett til f.eks. "navn" når du vet hva feltet heter
 
-  map.addLayer({
-    id: 'cluster-count',
-    type: 'symbol',
-    source: 'lokasjoner',
-    filter: ['has', 'point_count'],
-    minzoom: 0,
-    maxzoom: 12,
-    layout: {
-      'text-field': ['get', 'point_count_abbreviated'],
-      'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-      'text-size': 12
-    },
-    paint: {
-      'text-color': '#FFFFFF'
-    }
-  });
-
-  map.loadImage('https://hannefa.github.io/Vest/Filekssymbol_with_white_circle.png', (error, image) => {
-    if (error) throw error;
-    map.addImage('custom-icon', image);
-
-    map.addLayer({
-      id: 'unclustered-point',
-      type: 'symbol',
-      source: 'lokasjoner',
-      filter: ['!', ['has', 'point_count']],
-      minzoom: 13,
-      layout: {
-        'icon-image': 'custom-icon',
-        'icon-size': 0.5,
-        'icon-allow-overlap': true,
-        'text-field': ['get', 'name'],
-        'text-offset': [0, 1.25],
-        'text-anchor': 'top'
-      },
-      paint: {
-        'text-color': '#222222'
-      }
+    const map = new mapboxgl.Map({
+      container: "map",
+      style: STYLE_URL,
+      center: [10.75, 59.91],
+      zoom: 5
     });
-  });
 
-map.on("click", "clusters", (e) => {
-  const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
-  const clusterId = features[0].properties.cluster_id;
+    map.addControl(new mapboxgl.NavigationControl({ showCompass: true }), "top-right");
 
-  map.getSource("utplasseringer").getClusterExpansionZoom(clusterId, (err, zoom) => {
-    if (err) return;
-    map.easeTo({ center: features[0].geometry.coordinates, zoom });
-  });
-});
+    map.on("load", () => {
+      // --- Source med clustering ---
+      map.addSource("utplasseringer", {
+        type: "geojson",
+        data: GEOJSON_URL,
+        cluster: true,
+        clusterMaxZoom: 14,
+        clusterRadius: 50
+      });
 
-});
-</script>
+      // --- Cluster-sirkler ---
+      map.addLayer({
+        id: "clusters",
+        type: "circle",
+        source: "utplasseringer",
+        filter: ["has", "point_count"],
+        paint: {
+          "circle-color": "#2563eb",
+          "circle-radius": ["step", ["get", "point_count"], 18, 10, 22, 30, 28],
+          "circle-opacity": 0.9
+        }
+      });
+
+      // --- Tall i clusters ---
+      map.addLayer({
+        id: "cluster-count",
+        type: "symbol",
+        source: "utplasseringer",
+        filter: ["has", "point_count"],
+        layout: {
+          "text-field": "{point_count_abbreviated}",
+          "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
+          "text-size": 12
+        },
+        paint: {
+          "text-color": "#ffffff"
+        }
+      });
+
+      // --- Enkeltpunkter (ikke cluster) ---
+      map.addLayer({
+        id: "unclustered-point",
+        type: "circle",
+        source: "utplasseringer",
+        filter: ["!", ["has", "point_count"]],
+        paint: {
+          "circle-color": "#2563eb",
+          "circle-radius": 6,
+          "circle-stroke-color": "#ffffff",
+          "circle-stroke-width": 1
+        }
+      });
+
+      // --- Klikk på cluster -> zoom inn ---
+      map.on("click", "clusters", (e) => {
+        const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
+        if (!features.length) return;
+
+        const clusterId = features[0].properties.cluster_id;
+        const source = map.getSource("utplasseringer");
+
+        source.getClusterExpansionZoom(clusterId, (err, zoom) => {
+          if (err) return;
+          map.easeTo({
+            center: features[0].geometry.coordinates,
+            zoom
+          });
+        });
+      });
+
+      // --- Cursor for clusters ---
+      map.on("mouseenter", "clusters", () => (map.getCanvas().style.cursor = "pointer"));
+      map.on("mouseleave", "clusters", () => (map.getCanvas().style.cursor = ""));
+
+      // --- Hover popup på enkeltpunkter ---
+      let popup = null;
+
+      function resolveLabel(props) {
+        if (!props) return "";
+
+        // Hvis NAME_PROP er satt, bruk den
+        if (NAME_PROP && props[NAME_PROP] != null) return String(props[NAME_PROP]);
+
+        // Ellers prøv noen vanlige feltnavn
+        const candidates = ["navn", "name", "title", "sted", "lokasjon", "adresse", "label"];
+        for (const key of candidates) {
+          if (props[key] != null && String(props[key]).trim() !== "") {
+            return String(props[key]);
+          }
+        }
+        return "";
+      }
+
+      map.on("mouseenter", "unclustered-point", (e) => {
+        map.getCanvas().style.cursor = "pointer";
+        const f = e.features && e.features[0];
+        if (!f) return;
+
+        const coords = f.geometry.coordinates.slice();
+        const label = resolveLabel(f.properties);
+
+        // Hvis label er tom, viser vi i det minste noe for debugging
+        const html = label
+          ? `<strong>${label}</strong>`
+          : `<strong>(mangler navn)</strong><div style="font-size:12px;opacity:.8">Sjekk NAME_PROP i index.html</div>`;
+
+        // Fjern gammel popup før vi lager ny
+        if (popup) popup.remove();
+
+        popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
+          .setLngLat(coords)
+          .setHTML(html)
+          .addTo(map);
+      });
+
+      map.on("mouseleave", "unclustered-point", () => {
+        map.getCanvas().style.cursor = "";
+        if (popup) popup.remove();
+        popup = null;
+      });
+    });
+
+    // --- Enkel feilhåndtering (nyttig ved blankt kart) ---
+    map.on("error", (e) => {
+      // Feil vises i konsollen. Hvis det er 401/403 -> token/restriksjon.
+      // Hvis det er 404 på geojson -> filnavn/path feil.
+      console.error("Map error:", e && e.error ? e.error : e);
+    });
+  </script>
 </body>
 </html>
