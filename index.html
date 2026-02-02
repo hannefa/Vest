@@ -97,133 +97,153 @@
       showError("Mapbox-feil: " + (err && err.message ? err.message : String(err)));
     });
 
-    // ========= Data + layers =========
-    map.on("load", () => {
-      // Source med clustering
-      map.addSource("utplasseringer", {
-        type: "geojson",
-        data: GEOJSON_URL,
-        cluster: true,
-        clusterMaxZoom: POINTS_MIN_ZOOM, // cluster slutter ca når punkter begynner
-        clusterRadius: 50
+// ========= Data + layers =========
+map.on("load", () => {
+  // Source med clustering
+  map.addSource("utplasseringer", {
+    type: "geojson",
+    data: GEOJSON_URL,
+    cluster: true,
+    clusterMaxZoom: POINTS_MIN_ZOOM, // cluster slutter ca når punkter begynner
+    clusterRadius: 50
+  });
+
+  // Auto-zoom til hvor punktene faktisk ligger (men maks "Norge-oversikt")
+  fetch(GEOJSON_URL)
+    .then((r) => r.json())
+    .then((geo) => {
+      const b = new mapboxgl.LngLatBounds();
+
+      (geo.features || []).forEach((f) => {
+        const c = f?.geometry?.coordinates;
+        if (c && Array.isArray(c) && c.length >= 2) b.extend(c);
       });
 
-      // Cluster-sirkler
-      map.addLayer({
-        id: "clusters",
-        type: "circle",
-        source: "utplasseringer",
-        filter: ["has", "point_count"],
-        paint: {
-          "circle-color": [
-            "step",
-            ["get", "point_count"],
-            "#9c6bb3",     // 1–9
-            10, "#6F3A8A", // 10–29
-            30, "#4B1F66"  // 30+
-          ],
-          "circle-radius": [
-            "step",
-            ["get", "point_count"],
-            18,
-            10, 22,
-            30, 28
-          ],
-          "circle-stroke-width": 0
-        }
-      });
-
-      // Tall i clusters (uten halo)
-      map.addLayer({
-        id: "cluster-count",
-        type: "symbol",
-        source: "utplasseringer",
-        filter: ["has", "point_count"],
-        layout: {
-          "text-field": "{point_count_abbreviated}",
-          "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
-          "text-size": 13
-        },
-        paint: {
-          "text-color": "#ffffff"
-        }
-      });
-
-      // Enkeltpunkter (ikke cluster)
-      map.addLayer({
-        id: "unclustered-point",
-        type: "circle",
-        source: "utplasseringer",
-        filter: ["!", ["has", "point_count"]],
-        minzoom: POINTS_MIN_ZOOM,
-        paint: {
-          "circle-color": "#743492",
-          "circle-radius": 6,
-          "circle-stroke-color": "#ffffff",
-          "circle-stroke-width": 1.5
-        }
-      });
-
-      // Klikk på cluster -> zoom inn
-      map.on("click", "clusters", (e) => {
-        const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
-        if (!features.length) return;
-
-        const clusterId = features[0].properties.cluster_id;
-        const source = map.getSource("utplasseringer");
-
-        source.getClusterExpansionZoom(clusterId, (err, zoom) => {
-          if (err) return;
-          map.easeTo({ center: features[0].geometry.coordinates, zoom });
+      if (!b.isEmpty()) {
+        map.fitBounds(b, {
+          padding: 60,
+          // dette setter hvor langt inn den får zoome automatisk
+          // lavere = mer "oversiktlig"
+          maxZoom: 7,
+          duration: 0
         });
-      });
-
-      // Cursor for clusters
-      map.on("mouseenter", "clusters", () => (map.getCanvas().style.cursor = "pointer"));
-      map.on("mouseleave", "clusters", () => (map.getCanvas().style.cursor = ""));
-
-      // Hover popup på enkeltpunkter
-      let popup = null;
-
-      function resolveLabel(props) {
-        if (!props) return "";
-        if (NAME_PROP && props[NAME_PROP] != null) return String(props[NAME_PROP]);
-
-        const candidates = ["navn", "name", "title", "sted", "lokasjon", "adresse", "label"];
-        for (const key of candidates) {
-          const v = props[key];
-          if (v != null && String(v).trim() !== "") return String(v);
-        }
-        return "";
       }
+    })
+    .catch((err) => console.warn("Kunne ikke lese GeoJSON for fitBounds:", err));
 
-      map.on("mouseenter", "unclustered-point", (e) => {
-        map.getCanvas().style.cursor = "pointer";
-        const f = e.features && e.features[0];
-        if (!f) return;
+  // Cluster-sirkler
+  map.addLayer({
+    id: "clusters",
+    type: "circle",
+    source: "utplasseringer",
+    filter: ["has", "point_count"],
+    paint: {
+      "circle-color": [
+        "step",
+        ["get", "point_count"],
+        "#9c6bb3",     // 1–9
+        10, "#6F3A8A", // 10–29
+        30, "#4B1F66"  // 30+
+      ],
+      "circle-radius": [
+        "step",
+        ["get", "point_count"],
+        18,
+        10, 22,
+        30, 28
+      ],
+      "circle-stroke-width": 0
+    }
+  });
 
-        const coords = f.geometry.coordinates.slice();
-        const label = resolveLabel(f.properties);
+  // Tall i clusters (uten halo)
+  map.addLayer({
+    id: "cluster-count",
+    type: "symbol",
+    source: "utplasseringer",
+    filter: ["has", "point_count"],
+    layout: {
+      "text-field": "{point_count_abbreviated}",
+      "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
+      "text-size": 13
+    },
+    paint: {
+      "text-color": "#ffffff"
+    }
+  });
 
-        if (popup) popup.remove();
+  // Enkeltpunkter (ikke cluster)
+  map.addLayer({
+    id: "unclustered-point",
+    type: "circle",
+    source: "utplasseringer",
+    filter: ["!", ["has", "point_count"]],
+    minzoom: POINTS_MIN_ZOOM,
+    paint: {
+      "circle-color": "#743492",
+      "circle-radius": 6,
+      "circle-stroke-color": "#ffffff",
+      "circle-stroke-width": 1.5
+    }
+  });
 
-        popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
-          .setLngLat(coords)
-          .setHTML(`
-            <div class="popup">
-              <div class="popup-title">${label || "Ukjent navn"}</div>
-              <div class="popup-sub">Fileks-boks</div>
-            </div>
-          `)
-          .addTo(map);
-      });
+  // Klikk på cluster -> zoom inn
+  map.on("click", "clusters", (e) => {
+    const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
+    if (!features.length) return;
 
-      map.on("mouseleave", "unclustered-point", () => {
-        map.getCanvas().style.cursor = "";
-        if (popup) popup.remove();
-        popup = null;
-      });
+    const clusterId = features[0].properties.cluster_id;
+    const source = map.getSource("utplasseringer");
+
+    source.getClusterExpansionZoom(clusterId, (err, zoom) => {
+      if (err) return;
+      map.easeTo({ center: features[0].geometry.coordinates, zoom });
     });
-  </script>
-</body>
-</html>
+  });
+
+  // Cursor for clusters
+  map.on("mouseenter", "clusters", () => (map.getCanvas().style.cursor = "pointer"));
+  map.on("mouseleave", "clusters", () => (map.getCanvas().style.cursor = ""));
+
+  // Hover popup på enkeltpunkter
+  let popup = null;
+
+  function resolveLabel(props) {
+    if (!props) return "";
+    if (NAME_PROP && props[NAME_PROP] != null) return String(props[NAME_PROP]);
+
+    const candidates = ["navn", "name", "title", "sted", "lokasjon", "adresse", "label"];
+    for (const key of candidates) {
+      const v = props[key];
+      if (v != null && String(v).trim() !== "") return String(v);
+    }
+    return "";
+  }
+
+  map.on("mouseenter", "unclustered-point", (e) => {
+    map.getCanvas().style.cursor = "pointer";
+    const f = e.features && e.features[0];
+    if (!f) return;
+
+    const coords = f.geometry.coordinates.slice();
+    const label = resolveLabel(f.properties);
+
+    if (popup) popup.remove();
+
+    popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
+      .setLngLat(coords)
+      .setHTML(`
+        <div class="popup">
+          <div class="popup-title">${label || "Ukjent navn"}</div>
+          <div class="popup-sub">Fileks-boks</div>
+        </div>
+      `)
+      .addTo(map);
+  });
+
+  map.on("mouseleave", "unclustered-point", () => {
+    map.getCanvas().style.cursor = "";
+    if (popup) popup.remove();
+    popup = null;
+  });
+});
