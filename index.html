@@ -50,17 +50,30 @@
       });
 
       // --- Cluster-sirkler ---
-      map.addLayer({
-        id: "clusters",
-        type: "circle",
-        source: "utplasseringer",
-        filter: ["has", "point_count"],
-        paint: {
-          "circle-color": "#2563eb",
-          "circle-radius": ["step", ["get", "point_count"], 18, 10, 22, 30, 28],
-          "circle-opacity": 0.9
-        }
-      });
+map.addLayer({
+  id: "clusters",
+  type: "circle",
+  source: "utplasseringer",
+  filter: ["has", "point_count"],
+  paint: {
+    "circle-color": [
+      "step",
+      ["get", "point_count"],
+      "#9C6BB3",   // små clusters
+      10, "#6F3A8A", // medium
+      30, "#4B1F66"  // store
+    ],
+    "circle-radius": [
+      "step",
+      ["get", "point_count"],
+      18,
+      10, 22,
+      30, 28
+    ],
+    "circle-stroke-color": "#FFFFFF",
+    "circle-stroke-width": 2
+  }
+});
 
       // --- Tall i clusters ---
       map.addLayer({
