@@ -175,6 +175,7 @@
         type: "circle",
         source: "utplasseringer",
         filter: ["has", "point_count"],
+        maxzoom: POINTS_MIN_ZOOM,
         paint: {
           "circle-color": [
             "step",
@@ -200,6 +201,7 @@
         type: "symbol",
         source: "utplasseringer",
         filter: ["has", "point_count"],
+        maxzoom: POINTS_MIN_ZOOM,
         layout: {
           "text-field": "{point_count_abbreviated}",
           "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
