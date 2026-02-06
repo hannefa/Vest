@@ -8,7 +8,7 @@
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
 
-  <!-- ✅ Geocoder (adresse-/stedsøk) -->
+  <!-- Geocoder -->
   <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.1/mapbox-gl-geocoder.css" />
   <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.1/mapbox-gl-geocoder.min.js"></script>
 
@@ -16,7 +16,6 @@
     html, body { height: 100%; margin: 0; padding: 0; }
     #map { width: 100%; height: 100vh; }
 
-    /* ✅ Søkefelt */
     #search {
       position: fixed;
       top: 12px;
@@ -24,14 +23,12 @@
       z-index: 9999;
       width: min(380px, calc(100vw - 24px));
     }
-    /* Litt rundere geocoder-UI */
     #search .mapboxgl-ctrl-geocoder {
       min-width: 100%;
       border-radius: 12px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.12);
     }
 
-    /* Popup styling (matcher Fileks uttrykket) */
     .mapboxgl-popup-content {
       background: #ffffff;
       border-radius: 12px;
@@ -50,36 +47,31 @@
       color: #6B7280;
       margin-top: 3px;
     }
-    .mapboxgl-popup-tip {
-      border-top-color: #ffffff !important;
-    }
+    .mapboxgl-popup-tip { border-top-color: #ffffff !important; }
   </style>
 </head>
 
 <body>
-  <!-- ✅ Søk -->
   <div id="search"></div>
-
   <div id="map"></div>
 
   <script>
-    // ========= Konfig =========
     mapboxgl.accessToken = "pk.eyJ1IjoiaGFhbm5uZWVlZSIsImEiOiJjbWE0Nnp4OWwwM3NxMmlxejNudXBwa2I3In0.EzmmIDuSMF5JupYeej9NoA";
 
     const STYLE_URL = "mapbox://styles/mapbox/streets-v12";
     const GEOJSON_URL = "./klesbokser_clean_stripped.geojson";
+
+    // ⚠️ VIKTIG: må matche filnavn 100% (store/små bokstaver)
     const ICON_URL = "./Fileks_logosymbol_128.png";
+
     const NAME_PROP = null;
 
-    // Zoom-regler (Norge)
     const MIN_ZOOM = 5;
     const MAX_ZOOM = 16;
 
-    // Vis enkeltpunkter først fra denne zoomen
     const POINTS_MIN_ZOOM = 14;
     const POINTS_SHOW_ZOOM = POINTS_MIN_ZOOM - 1; // 13
 
-    // Enkel device-detect (for mobiltilpasning)
     const IS_MOBILE = window.matchMedia("(pointer: coarse)").matches || window.innerWidth < 768;
 
     function showError(msg) {
@@ -105,7 +97,6 @@
         && lat >= 57 && lat <= 72;
     }
 
-    // ========= Lag kartet =========
     const map = new mapboxgl.Map({
       container: "map",
       style: STYLE_URL,
@@ -117,17 +108,25 @@
 
     map.addControl(new mapboxgl.NavigationControl({ showCompass: true }), "top-right");
 
-    // ✅ Geocoder: søk etter adresse/sted i Norge
-    const geocoder = new MapboxGeocoder({
-      accessToken: mapboxgl.accessToken,
-      mapboxgl,
-      marker: false,
-      countries: "no",
-      language: "no",
-      placeholder: "Søk etter sted eller adresse i Norge",
-      zoom: 14
-    });
-    document.getElementById("search").appendChild(geocoder.onAdd(map));
+    // ✅ Geocoder: gjør den "try/catch" så den aldri kan stoppe resten
+    try {
+      if (typeof MapboxGeocoder !== "undefined") {
+        const geocoder = new MapboxGeocoder({
+          accessToken: mapboxgl.accessToken,
+          mapboxgl,
+          marker: false,
+          countries: "no",
+          language: "no",
+          placeholder: "Søk etter sted eller adresse i Norge",
+          zoom: 14
+        });
+        document.getElementById("search").appendChild(geocoder.onAdd(map));
+      } else {
+        console.warn("MapboxGeocoder er undefined – plugin lastet ikke.");
+      }
+    } catch (e) {
+      console.warn("Geocoder feilet, men kartet fortsetter:", e);
+    }
 
     map.on("error", (e) => {
       const err = e && e.error ? e.error : e;
@@ -135,10 +134,10 @@
       showError("Mapbox-feil: " + (err && err.message ? err.message : String(err)));
     });
 
-    // ========= Data + layers =========
     map.on("load", async () => {
       let geo;
 
+      // 1) GeoJSON
       try {
         const r = await fetch(GEOJSON_URL);
         if (!r.ok) throw new Error(`GeoJSON HTTP ${r.status} (${r.statusText})`);
@@ -149,6 +148,7 @@
         return;
       }
 
+      // 2) Source (clustering)
       map.addSource("utplasseringer", {
         type: "geojson",
         data: geo,
@@ -157,40 +157,7 @@
         clusterRadius: IS_MOBILE ? 60 : 50
       });
 
-      try {
-        const b = new mapboxgl.LngLatBounds();
-        (geo.features || []).forEach((f) => {
-          const c = f?.geometry?.coordinates;
-          if (isNorwayish(c)) b.extend(c);
-        });
-
-        if (!b.isEmpty()) {
-          map.fitBounds(b, {
-            padding: 60,
-            maxZoom: 14,
-            duration: 0
-          });
-        }
-      } catch (err) {
-        console.warn("fitBounds-feil:", err);
-      }
-
-      try {
-        await new Promise((resolve, reject) => {
-          map.loadImage(ICON_URL, (err, image) => {
-            if (err) return reject(err);
-            if (!map.hasImage("fileks-icon")) {
-              map.addImage("fileks-icon", image, { pixelRatio: 2 });
-            }
-            resolve();
-          });
-        });
-      } catch (err) {
-        console.error(err);
-        showError("Klarte ikke laste ikon-bilde: " + (err?.message || String(err)));
-        return;
-      }
-
+      // 3) Legg ALLTID til cluster-lagene først (så “forsvinner ikke alt”)
       map.addLayer({
         id: "clusters",
         type: "circle",
@@ -227,11 +194,25 @@
           "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
           "text-size": 13
         },
-        paint: {
-          "text-color": "#ffffff"
-        }
+        paint: { "text-color": "#ffffff" }
       });
 
+      // 4) Fit bounds
+      try {
+        const b = new mapboxgl.LngLatBounds();
+        (geo.features || []).forEach((f) => {
+          const c = f?.geometry?.coordinates;
+          if (isNorwayish(c)) b.extend(c);
+        });
+
+        if (!b.isEmpty()) {
+          map.fitBounds(b, { padding: 60, maxZoom: 14, duration: 0 });
+        }
+      } catch (err) {
+        console.warn("fitBounds-feil:", err);
+      }
+
+      // 5) Hit-area (alltid)
       map.addLayer({
         id: "unclustered-hit",
         type: "circle",
@@ -251,25 +232,53 @@
         }
       });
 
-      map.addLayer({
-        id: "unclustered-point",
-        type: "symbol",
-        source: "utplasseringer",
-        filter: ["!", ["has", "point_count"]],
-        minzoom: POINTS_SHOW_ZOOM,
-        layout: {
-          "icon-image": "fileks-icon",
-          "icon-size": [
-            "interpolate",
-            ["linear"],
-            ["zoom"],
-            14, 0.6,
-            16, 0.8
-          ],
-          "icon-allow-overlap": true,
-          "icon-anchor": "bottom"
-        }
-      });
+      // 6) Prøv ikon – hvis det feiler, fall tilbake til sirkelpunkter
+      let iconOk = false;
+      try {
+        await new Promise((resolve, reject) => {
+          map.loadImage(ICON_URL, (err, image) => {
+            if (err) return reject(err);
+            if (!map.hasImage("fileks-icon")) {
+              map.addImage("fileks-icon", image, { pixelRatio: 2 });
+            }
+            resolve();
+          });
+        });
+        iconOk = true;
+      } catch (err) {
+        console.warn("Ikon lastet ikke (fortsetter med sirkelpunkter):", err);
+        showError("Fant ikke ikon: sjekk filnavn/sti (bruker fallback).");
+      }
+
+      if (iconOk) {
+        map.addLayer({
+          id: "unclustered-point",
+          type: "symbol",
+          source: "utplasseringer",
+          filter: ["!", ["has", "point_count"]],
+          minzoom: POINTS_SHOW_ZOOM,
+          layout: {
+            "icon-image": "fileks-icon",
+            "icon-size": ["interpolate", ["linear"], ["zoom"], 14, 0.6, 16, 0.8],
+            "icon-allow-overlap": true,
+            "icon-anchor": "bottom"
+          }
+        });
+      } else {
+        map.addLayer({
+          id: "unclustered-point-fallback",
+          type: "circle",
+          source: "utplasseringer",
+          filter: ["!", ["has", "point_count"]],
+          minzoom: POINTS_SHOW_ZOOM,
+          paint: {
+            "circle-color": "#743492",
+            "circle-radius": ["interpolate", ["linear"], ["zoom"], 14, 6, 16, 8],
+            "circle-stroke-color": "#ffffff",
+            "circle-stroke-width": 1.5
+          }
+        });
+      }
 
       // Cluster click
       map.on("click", "clusters", (e) => {
@@ -278,7 +287,6 @@
 
         const clusterId = features[0].properties.cluster_id;
         const source = map.getSource("utplasseringer");
-
         map.stop();
 
         source.getClusterLeaves(clusterId, 200, 0, (err, leaves) => {
@@ -303,17 +311,14 @@
             return;
           }
 
-          map.fitBounds(b, {
-            padding: 60,
-            maxZoom: MAX_ZOOM,
-            duration: 600
-          });
+          map.fitBounds(b, { padding: 60, maxZoom: MAX_ZOOM, duration: 600 });
         });
       });
 
       map.on("mouseenter", "clusters", () => { if (!IS_MOBILE) map.getCanvas().style.cursor = "pointer"; });
       map.on("mouseleave", "clusters", () => { if (!IS_MOBILE) map.getCanvas().style.cursor = ""; });
 
+      // Popup (hover desktop / tap mobil) via hit-layer
       let popup = null;
 
       function resolveLabel(props) {
@@ -347,20 +352,15 @@
           closeButton: IS_MOBILE,
           closeOnClick: false,
           offset: IS_MOBILE ? 36 : 30
-        })
-          .setLngLat(coords)
-          .setDOMContent(el)
-          .addTo(map);
+        }).setLngLat(coords).setDOMContent(el).addTo(map);
       }
 
       // Desktop hover
       map.on("mouseenter", "unclustered-hit", (e) => {
         if (IS_MOBILE) return;
         map.getCanvas().style.cursor = "pointer";
-        const f = e.features && e.features[0];
-        openPopupForFeature(f);
+        openPopupForFeature(e.features && e.features[0]);
       });
-
       map.on("mouseleave", "unclustered-hit", () => {
         if (IS_MOBILE) return;
         map.getCanvas().style.cursor = "";
@@ -371,10 +371,8 @@
       // Mobil tap
       map.on("click", "unclustered-hit", (e) => {
         if (!IS_MOBILE) return;
-        const f = e.features && e.features[0];
-        openPopupForFeature(f);
+        openPopupForFeature(e.features && e.features[0]);
       });
-
       map.on("click", (e) => {
         if (!IS_MOBILE) return;
         const feats = map.queryRenderedFeatures(e.point, { layers: ["unclustered-hit", "clusters"] });
@@ -382,9 +380,6 @@
         if (popup) popup.remove();
         popup = null;
       });
-
-      map.on("mouseenter", "unclustered-hit", () => { if (!IS_MOBILE) map.getCanvas().style.cursor = "pointer"; });
-      map.on("mouseleave", "unclustered-hit", () => { if (!IS_MOBILE) map.getCanvas().style.cursor = ""; });
     });
   </script>
 </body>
