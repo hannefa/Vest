@@ -46,6 +46,7 @@
 
     const STYLE_URL = "mapbox://styles/mapbox/streets-v12";
     const GEOJSON_URL = "./klesbokser_clean_stripped.geojson";
+    const ICON_URL = "./Filekssymbol_with_white_circle.png";
     const NAME_PROP = null;
 
     // Zoom-regler (Norge)
@@ -85,8 +86,8 @@
       style: STYLE_URL,
       center: [10.75, 59.91],
       zoom: 5,
-      minZoom: MIN_ZOOM, // ✅ aldri klode-visning
-      maxZoom: MAX_ZOOM  // ✅ aldri for langt inn
+      minZoom: MIN_ZOOM,
+      maxZoom: MAX_ZOOM
     });
 
     map.addControl(new mapboxgl.NavigationControl({ showCompass: true }), "top-right");
@@ -108,6 +109,7 @@
     map.on("load", async () => {
       let geo;
 
+      // 1) Last GeoJSON én gang
       try {
         const r = await fetch(GEOJSON_URL);
         if (!r.ok) throw new Error(`GeoJSON HTTP ${r.status} (${r.statusText})`);
@@ -118,6 +120,7 @@
         return;
       }
 
+      // 2) Source med clustering
       map.addSource("utplasseringer", {
         type: "geojson",
         data: geo,
@@ -126,7 +129,7 @@
         clusterRadius: 50
       });
 
-      // Auto-zoom til hvor punktene faktisk ligger
+      // 3) Auto-zoom til hvor punktene faktisk ligger
       try {
         const b = new mapboxgl.LngLatBounds();
         (geo.features || []).forEach((f) => {
@@ -145,7 +148,24 @@
         console.warn("fitBounds-feil:", err);
       }
 
-      // Cluster-sirkler
+      // 4) Last ikon til enkeltpunkter (må skje før symbol-layeret)
+      try {
+        await new Promise((resolve, reject) => {
+          map.loadImage(ICON_URL, (err, image) => {
+            if (err) return reject(err);
+            if (!map.hasImage("fileks-icon")) {
+              map.addImage("fileks-icon", image, { pixelRatio: 2 });
+            }
+            resolve();
+          });
+        });
+      } catch (err) {
+        console.error(err);
+        showError("Klarte ikke laste ikon-bilde: " + (err?.message || String(err)));
+        return;
+      }
+
+      // 5) Cluster-sirkler (MÅ finnes)
       map.addLayer({
         id: "clusters",
         type: "circle",
@@ -170,7 +190,7 @@
         }
       });
 
-      // Tall i clusters
+      // 6) Tall i clusters
       map.addLayer({
         id: "cluster-count",
         type: "symbol",
@@ -186,18 +206,24 @@
         }
       });
 
-      // Enkeltpunkter
+      // 7) Enkeltpunkter som ikon (erstatter circle-layeret)
       map.addLayer({
         id: "unclustered-point",
-        type: "circle",
+        type: "symbol",
         source: "utplasseringer",
         filter: ["!", ["has", "point_count"]],
         minzoom: POINTS_MIN_ZOOM,
-        paint: {
-          "circle-color": "#743492",
-          "circle-radius": 6,
-          "circle-stroke-color": "#ffffff",
-          "circle-stroke-width": 1.5
+        layout: {
+          "icon-image": "fileks-icon",
+          "icon-size": [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            14, 0.12,
+            16, 0.18
+          ],
+          "icon-allow-overlap": true,
+          "icon-anchor": "bottom"
         }
       });
 
@@ -209,7 +235,7 @@
         const clusterId = features[0].properties.cluster_id;
         const source = map.getSource("utplasseringer");
 
-        map.stop(); // ✅ stopp pågående animasjon
+        map.stop();
 
         source.getClusterLeaves(clusterId, 200, 0, (err, leaves) => {
           if (err || !leaves || !leaves.length) return;
@@ -219,7 +245,7 @@
 
           for (const f of leaves) {
             const c = f?.geometry?.coordinates;
-            if (!isNorwayish(c)) continue; // ✅ outlier-filter
+            if (!isNorwayish(c)) continue;
             b.extend(c);
             n++;
           }
