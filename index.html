@@ -56,6 +56,9 @@
     // Vis enkeltpunkter først fra denne zoomen
     const POINTS_MIN_ZOOM = 14;
 
+    // Enkel device-detect (for mobiltilpasning)
+    const IS_MOBILE = window.matchMedia("(pointer: coarse)").matches || window.innerWidth < 768;
+
     function showError(msg) {
       let el = document.getElementById("map-error");
       if (!el) {
@@ -126,7 +129,8 @@
         data: geo,
         cluster: true,
         clusterMaxZoom: POINTS_MIN_ZOOM - 1,
-        clusterRadius: 50
+        // Mobil: litt større radius = færre ting å tegne + enklere å trykke
+        clusterRadius: IS_MOBILE ? 60 : 50
       });
 
       // 3) Auto-zoom til hvor punktene faktisk ligger
@@ -206,7 +210,7 @@
         }
       });
 
-      // 7) Usynlig hit-area for stabile hover-events (legg under ikonet)
+      // 7) Usynlig hit-area for stabile hover/tap (større på mobil)
       map.addLayer({
         id: "unclustered-hit",
         type: "circle",
@@ -214,7 +218,13 @@
         filter: ["!", ["has", "point_count"]],
         minzoom: POINTS_MIN_ZOOM,
         paint: {
-          "circle-radius": 18,   // juster 10–18 etter smak
+          "circle-radius": [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            14, IS_MOBILE ? 22 : 18,
+            16, IS_MOBILE ? 28 : 22
+          ],
           "circle-color": "#000",
           "circle-opacity": 0
         }
@@ -241,7 +251,7 @@
         }
       });
 
-      // Klikk på cluster -> fit bounds til punktene i clusteren
+      // Klikk på cluster -> fit bounds til punktene i clusteren (desktop+mobil)
       map.on("click", "clusters", (e) => {
         const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
         if (!features.length) return;
@@ -281,11 +291,11 @@
         });
       });
 
-      // Cursor for clusters
-      map.on("mouseenter", "clusters", () => (map.getCanvas().style.cursor = "pointer"));
-      map.on("mouseleave", "clusters", () => (map.getCanvas().style.cursor = ""));
+      // Cursor for clusters (desktop)
+      map.on("mouseenter", "clusters", () => { if (!IS_MOBILE) map.getCanvas().style.cursor = "pointer"; });
+      map.on("mouseleave", "clusters", () => { if (!IS_MOBILE) map.getCanvas().style.cursor = ""; });
 
-      // Hover popup – bind til unclustered-hit (stabilt, ingen blinking)
+      // Popup helpers
       let popup = null;
 
       function resolveLabel(props) {
@@ -300,39 +310,67 @@
         return "";
       }
 
-      map.on("mouseenter", "unclustered-hit", (e) => {
-        map.getCanvas().style.cursor = "pointer";
-        const f = e.features && e.features[0];
+      function openPopupForFeature(f) {
         if (!f) return;
-
         const coords = f.geometry.coordinates.slice();
         const label = resolveLabel(f.properties);
 
         if (popup) popup.remove();
 
         const el = document.createElement("div");
-
         const t = document.createElement("div");
         t.className = "popup-title";
         t.textContent = label || "Ukjent navn";
-
         const s = document.createElement("div");
         s.className = "popup-sub";
         s.textContent = "Fileks-boks";
-
         el.append(t, s);
 
-        popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false, offset: 30 })
+        // Mobil: closeButton=true og større offset er mer brukervennlig
+        popup = new mapboxgl.Popup({
+          closeButton: IS_MOBILE,
+          closeOnClick: false,
+          offset: IS_MOBILE ? 36 : 30
+        })
           .setLngLat(coords)
           .setDOMContent(el)
           .addTo(map);
+      }
+
+      // Desktop: behold hover-opplevelsen (stabilt via hit-layer)
+      map.on("mouseenter", "unclustered-hit", (e) => {
+        if (IS_MOBILE) return;
+        map.getCanvas().style.cursor = "pointer";
+        const f = e.features && e.features[0];
+        openPopupForFeature(f);
       });
 
       map.on("mouseleave", "unclustered-hit", () => {
+        if (IS_MOBILE) return;
         map.getCanvas().style.cursor = "";
         if (popup) popup.remove();
         popup = null;
       });
+
+      // Mobil: tap/click for popup + tap på tomt kart for å lukke
+      map.on("click", "unclustered-hit", (e) => {
+        if (!IS_MOBILE) return;
+        const f = e.features && e.features[0];
+        openPopupForFeature(f);
+      });
+
+      map.on("click", (e) => {
+        if (!IS_MOBILE) return;
+        // Hvis du trykker på et punkt eller cluster, ikke lukk
+        const feats = map.queryRenderedFeatures(e.point, { layers: ["unclustered-hit", "clusters"] });
+        if (feats.length) return;
+        if (popup) popup.remove();
+        popup = null;
+      });
+
+      // Cursor for punkt (desktop)
+      map.on("mouseenter", "unclustered-hit", () => { if (!IS_MOBILE) map.getCanvas().style.cursor = "pointer"; });
+      map.on("mouseleave", "unclustered-hit", () => { if (!IS_MOBILE) map.getCanvas().style.cursor = ""; });
     });
   </script>
 </body>
