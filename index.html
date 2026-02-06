@@ -197,21 +197,34 @@
       });
 
       // Klikk på cluster -> zoom inn (clamp til minst POINTS_MIN_ZOOM)
-      map.on("click", "clusters", (e) => {
-        const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
-        if (!features.length) return;
 
-        const clusterId = features[0].properties.cluster_id;
-        const source = map.getSource("utplasseringer");
+map.on("click", "clusters", (e) => {
+  const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
+  if (!features.length) return;
 
-        source.getClusterExpansionZoom(clusterId, (err, zoom) => {
-          if (err) return;
-          map.easeTo({
-            center: features[0].geometry.coordinates,
-            zoom: Math.max(zoom, POINTS_MIN_ZOOM) // ✅ alltid minst punkt-zoom
-          });
-        });
+  const clusterId = features[0].properties.cluster_id;
+  const source = map.getSource("utplasseringer");
+
+  // Hent noen "leaves" fra clusteren og fit bounds til dem
+  source.getClusterLeaves(clusterId, 200, 0, (err, leaves) => {
+    if (err || !leaves || !leaves.length) return;
+
+    const b = new mapboxgl.LngLatBounds();
+    for (const f of leaves) {
+      const c = f?.geometry?.coordinates;
+      if (Array.isArray(c) && c.length >= 2) b.extend(c);
+    }
+
+    if (!b.isEmpty()) {
+      map.fitBounds(b, {
+        padding: 60,
+        maxZoom: 16,     // ✅ begrenser "zoomer altfor langt"
+        duration: 600    // ✅ litt raskere/føles mindre “lang”
       });
+    }
+  });
+});
+
 
       // Cursor for clusters
       map.on("mouseenter", "clusters", () => (map.getCanvas().style.cursor = "pointer"));
