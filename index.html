@@ -8,9 +8,28 @@
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
 
+  <!-- ✅ Geocoder (adresse-/stedsøk) -->
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.1/mapbox-gl-geocoder.css" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.1/mapbox-gl-geocoder.min.js"></script>
+
   <style>
     html, body { height: 100%; margin: 0; padding: 0; }
     #map { width: 100%; height: 100vh; }
+
+    /* ✅ Søkefelt */
+    #search {
+      position: fixed;
+      top: 12px;
+      left: 12px;
+      z-index: 9999;
+      width: min(380px, calc(100vw - 24px));
+    }
+    /* Litt rundere geocoder-UI */
+    #search .mapboxgl-ctrl-geocoder {
+      min-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    }
 
     /* Popup styling (matcher Fileks uttrykket) */
     .mapboxgl-popup-content {
@@ -38,6 +57,9 @@
 </head>
 
 <body>
+  <!-- ✅ Søk -->
+  <div id="search"></div>
+
   <div id="map"></div>
 
   <script>
@@ -55,8 +77,6 @@
 
     // Vis enkeltpunkter først fra denne zoomen
     const POINTS_MIN_ZOOM = 14;
-
-    // ✅ Ny: start ikon/hit litt tidligere for å unngå fraksjons-zoom-gap
     const POINTS_SHOW_ZOOM = POINTS_MIN_ZOOM - 1; // 13
 
     // Enkel device-detect (for mobiltilpasning)
@@ -77,7 +97,6 @@
       el.textContent = msg;
     }
 
-    // (Valgfritt, men anbefalt) – stopper “klode-zoom” hvis et punkt har rare coords
     function isNorwayish(c) {
       if (!Array.isArray(c) || c.length < 2) return false;
       const [lng, lat] = c;
@@ -98,12 +117,17 @@
 
     map.addControl(new mapboxgl.NavigationControl({ showCompass: true }), "top-right");
 
-    map.on("style.load", () => {
-      const s = map.getStyle();
-      console.log("STYLE name:", s && s.name);
-      console.log("Layers:", s && s.layers ? s.layers.length : 0);
-      console.log("Sources:", s && s.sources ? Object.keys(s.sources) : []);
+    // ✅ Geocoder: søk etter adresse/sted i Norge
+    const geocoder = new MapboxGeocoder({
+      accessToken: mapboxgl.accessToken,
+      mapboxgl,
+      marker: false,
+      countries: "no",
+      language: "no",
+      placeholder: "Søk etter sted eller adresse i Norge",
+      zoom: 14
     });
+    document.getElementById("search").appendChild(geocoder.onAdd(map));
 
     map.on("error", (e) => {
       const err = e && e.error ? e.error : e;
@@ -115,7 +139,6 @@
     map.on("load", async () => {
       let geo;
 
-      // 1) Last GeoJSON én gang
       try {
         const r = await fetch(GEOJSON_URL);
         if (!r.ok) throw new Error(`GeoJSON HTTP ${r.status} (${r.statusText})`);
@@ -126,18 +149,14 @@
         return;
       }
 
-      // 2) Source med clustering
       map.addSource("utplasseringer", {
         type: "geojson",
         data: geo,
         cluster: true,
-        // ✅ Viktig: stopp clustering på samme zoom som punkter tar over
         clusterMaxZoom: POINTS_MIN_ZOOM,
-        // Mobil: litt større radius = færre ting å tegne + enklere å trykke
         clusterRadius: IS_MOBILE ? 60 : 50
       });
 
-      // 3) Auto-zoom til hvor punktene faktisk ligger
       try {
         const b = new mapboxgl.LngLatBounds();
         (geo.features || []).forEach((f) => {
@@ -156,7 +175,6 @@
         console.warn("fitBounds-feil:", err);
       }
 
-      // 4) Last ikon til enkeltpunkter (må skje før symbol-layeret)
       try {
         await new Promise((resolve, reject) => {
           map.loadImage(ICON_URL, (err, image) => {
@@ -173,7 +191,6 @@
         return;
       }
 
-      // 5) Cluster-sirkler (MÅ finnes)
       map.addLayer({
         id: "clusters",
         type: "circle",
@@ -199,7 +216,6 @@
         }
       });
 
-      // 6) Tall i clusters
       map.addLayer({
         id: "cluster-count",
         type: "symbol",
@@ -216,13 +232,11 @@
         }
       });
 
-      // 7) Usynlig hit-area for stabile hover/tap (større på mobil)
       map.addLayer({
         id: "unclustered-hit",
         type: "circle",
         source: "utplasseringer",
         filter: ["!", ["has", "point_count"]],
-        // ✅ start litt tidligere for å fjerne fraksjons-zoom-gap
         minzoom: POINTS_SHOW_ZOOM,
         paint: {
           "circle-radius": [
@@ -237,13 +251,11 @@
         }
       });
 
-      // 8) Enkeltpunkter som ikon (det du SER)
       map.addLayer({
         id: "unclustered-point",
         type: "symbol",
         source: "utplasseringer",
         filter: ["!", ["has", "point_count"]],
-        // ✅ start litt tidligere for å fjerne fraksjons-zoom-gap
         minzoom: POINTS_SHOW_ZOOM,
         layout: {
           "icon-image": "fileks-icon",
@@ -259,7 +271,7 @@
         }
       });
 
-      // Klikk på cluster -> fit bounds til punktene i clusteren (desktop+mobil)
+      // Cluster click
       map.on("click", "clusters", (e) => {
         const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
         if (!features.length) return;
@@ -299,17 +311,14 @@
         });
       });
 
-      // Cursor for clusters (desktop)
       map.on("mouseenter", "clusters", () => { if (!IS_MOBILE) map.getCanvas().style.cursor = "pointer"; });
       map.on("mouseleave", "clusters", () => { if (!IS_MOBILE) map.getCanvas().style.cursor = ""; });
 
-      // Popup helpers
       let popup = null;
 
       function resolveLabel(props) {
         if (!props) return "";
         if (NAME_PROP && props[NAME_PROP] != null) return String(props[NAME_PROP]);
-
         const candidates = ["navn", "name", "title", "sted", "lokasjon", "adresse", "label"];
         for (const key of candidates) {
           const v = props[key];
@@ -344,7 +353,7 @@
           .addTo(map);
       }
 
-      // Desktop: hover-opplevelse (stabilt via hit-layer)
+      // Desktop hover
       map.on("mouseenter", "unclustered-hit", (e) => {
         if (IS_MOBILE) return;
         map.getCanvas().style.cursor = "pointer";
@@ -359,7 +368,7 @@
         popup = null;
       });
 
-      // Mobil: tap/click for popup + tap på tomt kart for å lukke
+      // Mobil tap
       map.on("click", "unclustered-hit", (e) => {
         if (!IS_MOBILE) return;
         const f = e.features && e.features[0];
@@ -374,7 +383,6 @@
         popup = null;
       });
 
-      // Cursor for punkt (desktop)
       map.on("mouseenter", "unclustered-hit", () => { if (!IS_MOBILE) map.getCanvas().style.cursor = "pointer"; });
       map.on("mouseleave", "unclustered-hit", () => { if (!IS_MOBILE) map.getCanvas().style.cursor = ""; });
     });
