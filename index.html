@@ -56,6 +56,9 @@
     // Vis enkeltpunkter først fra denne zoomen
     const POINTS_MIN_ZOOM = 14;
 
+    // ✅ Ny: start ikon/hit litt tidligere for å unngå fraksjons-zoom-gap
+    const POINTS_SHOW_ZOOM = POINTS_MIN_ZOOM - 1; // 13
+
     // Enkel device-detect (for mobiltilpasning)
     const IS_MOBILE = window.matchMedia("(pointer: coarse)").matches || window.innerWidth < 768;
 
@@ -128,7 +131,8 @@
         type: "geojson",
         data: geo,
         cluster: true,
-        clusterMaxZoom: POINTS_MIN_ZOOM - 1,
+        // ✅ Viktig: stopp clustering på samme zoom som punkter tar over
+        clusterMaxZoom: POINTS_MIN_ZOOM,
         // Mobil: litt større radius = færre ting å tegne + enklere å trykke
         clusterRadius: IS_MOBILE ? 60 : 50
       });
@@ -218,7 +222,8 @@
         type: "circle",
         source: "utplasseringer",
         filter: ["!", ["has", "point_count"]],
-        minzoom: POINTS_MIN_ZOOM,
+        // ✅ start litt tidligere for å fjerne fraksjons-zoom-gap
+        minzoom: POINTS_SHOW_ZOOM,
         paint: {
           "circle-radius": [
             "interpolate",
@@ -238,7 +243,8 @@
         type: "symbol",
         source: "utplasseringer",
         filter: ["!", ["has", "point_count"]],
-        minzoom: POINTS_MIN_ZOOM,
+        // ✅ start litt tidligere for å fjerne fraksjons-zoom-gap
+        minzoom: POINTS_SHOW_ZOOM,
         layout: {
           "icon-image": "fileks-icon",
           "icon-size": [
@@ -328,7 +334,6 @@
         s.textContent = "Fileks-boks";
         el.append(t, s);
 
-        // Mobil: closeButton=true og større offset er mer brukervennlig
         popup = new mapboxgl.Popup({
           closeButton: IS_MOBILE,
           closeOnClick: false,
@@ -339,7 +344,7 @@
           .addTo(map);
       }
 
-      // Desktop: behold hover-opplevelsen (stabilt via hit-layer)
+      // Desktop: hover-opplevelse (stabilt via hit-layer)
       map.on("mouseenter", "unclustered-hit", (e) => {
         if (IS_MOBILE) return;
         map.getCanvas().style.cursor = "pointer";
@@ -363,7 +368,6 @@
 
       map.on("click", (e) => {
         if (!IS_MOBILE) return;
-        // Hvis du trykker på et punkt eller cluster, ikke lukk
         const feats = map.queryRenderedFeatures(e.point, { layers: ["unclustered-hit", "clusters"] });
         if (feats.length) return;
         if (popup) popup.remove();
