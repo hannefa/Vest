@@ -44,19 +44,17 @@
     // ========= Konfig =========
     mapboxgl.accessToken = "pk.eyJ1IjoiaGFhbm5uZWVlZSIsImEiOiJjbWE0Nnp4OWwwM3NxMmlxejNudXBwa2I3In0.EzmmIDuSMF5JupYeej9NoA";
 
-    // Basemap: bruk Mapbox sin Streets v12 direkte
     const STYLE_URL = "mapbox://styles/mapbox/streets-v12";
-
-    // Dine punkter
     const GEOJSON_URL = "./klesbokser_clean_stripped.geojson";
-
-    // Hvis du vet eksakt property i GeoJSON: sett den her (f.eks. "navn")
     const NAME_PROP = null;
 
-    // Vis enkeltpunkter først fra denne zoomen (så cluster ikke blandes med punkter)
+    // Zoom-regler (Norge)
+    const MIN_ZOOM = 5;
+    const MAX_ZOOM = 16;
+
+    // Vis enkeltpunkter først fra denne zoomen
     const POINTS_MIN_ZOOM = 14;
 
-    // ========= Liten feilmelding-boks =========
     function showError(msg) {
       let el = document.getElementById("map-error");
       if (!el) {
@@ -72,17 +70,27 @@
       el.textContent = msg;
     }
 
+    // (Valgfritt, men anbefalt) – stopper “klode-zoom” hvis et punkt har rare coords
+    function isNorwayish(c) {
+      if (!Array.isArray(c) || c.length < 2) return false;
+      const [lng, lat] = c;
+      return Number.isFinite(lng) && Number.isFinite(lat)
+        && lng >= 4 && lng <= 32
+        && lat >= 57 && lat <= 72;
+    }
+
     // ========= Lag kartet =========
     const map = new mapboxgl.Map({
       container: "map",
       style: STYLE_URL,
       center: [10.75, 59.91],
-      zoom: 5
+      zoom: 5,
+      minZoom: MIN_ZOOM, // ✅ aldri klode-visning
+      maxZoom: MAX_ZOOM  // ✅ aldri for langt inn
     });
 
     map.addControl(new mapboxgl.NavigationControl({ showCompass: true }), "top-right");
 
-    // Debug: sjekk at basemap faktisk har lag/sources
     map.on("style.load", () => {
       const s = map.getStyle();
       console.log("STYLE name:", s && s.name);
@@ -90,7 +98,6 @@
       console.log("Sources:", s && s.sources ? Object.keys(s.sources) : []);
     });
 
-    // Global feilhåndtering
     map.on("error", (e) => {
       const err = e && e.error ? e.error : e;
       console.error("Map error:", err);
@@ -101,7 +108,6 @@
     map.on("load", async () => {
       let geo;
 
-      // 1) Last GeoJSON én gang (robust)
       try {
         const r = await fetch(GEOJSON_URL);
         if (!r.ok) throw new Error(`GeoJSON HTTP ${r.status} (${r.statusText})`);
@@ -112,21 +118,20 @@
         return;
       }
 
-      // 2) Source med clustering (ren overgang cluster -> punkter)
       map.addSource("utplasseringer", {
         type: "geojson",
-        data: geo, // ✅ bruk objektet direkte (ingen dobbel lasting)
+        data: geo,
         cluster: true,
-        clusterMaxZoom: POINTS_MIN_ZOOM - 1, // ✅ stopper før punktlaget begynner
+        clusterMaxZoom: POINTS_MIN_ZOOM - 1,
         clusterRadius: 50
       });
 
-      // 3) Auto-zoom til hvor punktene faktisk ligger
+      // Auto-zoom til hvor punktene faktisk ligger
       try {
         const b = new mapboxgl.LngLatBounds();
         (geo.features || []).forEach((f) => {
           const c = f?.geometry?.coordinates;
-          if (Array.isArray(c) && c.length >= 2) b.extend(c);
+          if (isNorwayish(c)) b.extend(c);
         });
 
         if (!b.isEmpty()) {
@@ -150,9 +155,9 @@
           "circle-color": [
             "step",
             ["get", "point_count"],
-            "#9c6bb3",     // 1–9
-            10, "#6F3A8A", // 10–29
-            30, "#4B1F66"  // 30+
+            "#9c6bb3",
+            10, "#6F3A8A",
+            30, "#4B1F66"
           ],
           "circle-radius": [
             "step",
@@ -165,7 +170,7 @@
         }
       });
 
-      // Tall i clusters (uten halo)
+      // Tall i clusters
       map.addLayer({
         id: "cluster-count",
         type: "symbol",
@@ -181,7 +186,7 @@
         }
       });
 
-      // Enkeltpunkter (ikke cluster)
+      // Enkeltpunkter
       map.addLayer({
         id: "unclustered-point",
         type: "circle",
@@ -196,35 +201,46 @@
         }
       });
 
-      // Klikk på cluster -> zoom inn (clamp til minst POINTS_MIN_ZOOM)
+      // Klikk på cluster -> fit bounds til punktene i clusteren
+      map.on("click", "clusters", (e) => {
+        const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
+        if (!features.length) return;
 
-map.on("click", "clusters", (e) => {
-  const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
-  if (!features.length) return;
+        const clusterId = features[0].properties.cluster_id;
+        const source = map.getSource("utplasseringer");
 
-  const clusterId = features[0].properties.cluster_id;
-  const source = map.getSource("utplasseringer");
+        map.stop(); // ✅ stopp pågående animasjon
 
-  // Hent noen "leaves" fra clusteren og fit bounds til dem
-  source.getClusterLeaves(clusterId, 200, 0, (err, leaves) => {
-    if (err || !leaves || !leaves.length) return;
+        source.getClusterLeaves(clusterId, 200, 0, (err, leaves) => {
+          if (err || !leaves || !leaves.length) return;
 
-    const b = new mapboxgl.LngLatBounds();
-    for (const f of leaves) {
-      const c = f?.geometry?.coordinates;
-      if (Array.isArray(c) && c.length >= 2) b.extend(c);
-    }
+          const b = new mapboxgl.LngLatBounds();
+          let n = 0;
 
-    if (!b.isEmpty()) {
-      map.fitBounds(b, {
-        padding: 60,
-        maxZoom: 16,     // ✅ begrenser "zoomer altfor langt"
-        duration: 600    // ✅ litt raskere/føles mindre “lang”
+          for (const f of leaves) {
+            const c = f?.geometry?.coordinates;
+            if (!isNorwayish(c)) continue; // ✅ outlier-filter
+            b.extend(c);
+            n++;
+          }
+
+          // fallback hvis alt ble filtrert bort
+          if (!n || b.isEmpty()) {
+            map.easeTo({
+              center: features[0].geometry.coordinates,
+              zoom: Math.min(Math.max(map.getZoom() + 2, MIN_ZOOM), MAX_ZOOM),
+              duration: 600
+            });
+            return;
+          }
+
+          map.fitBounds(b, {
+            padding: 60,
+            maxZoom: MAX_ZOOM,
+            duration: 600
+          });
+        });
       });
-    }
-  });
-});
-
 
       // Cursor for clusters
       map.on("mouseenter", "clusters", () => (map.getCanvas().style.cursor = "pointer"));
@@ -255,7 +271,6 @@ map.on("click", "clusters", (e) => {
 
         if (popup) popup.remove();
 
-        // ✅ Best practice: unngå å injisere label i HTML (bruk textContent)
         const el = document.createElement("div");
 
         const t = document.createElement("div");
