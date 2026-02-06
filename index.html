@@ -206,7 +206,21 @@
         }
       });
 
-      // 7) Enkeltpunkter som ikon (erstatter circle-layeret)
+      // 7) Usynlig hit-area for stabile hover-events (legg under ikonet)
+      map.addLayer({
+        id: "unclustered-hit",
+        type: "circle",
+        source: "utplasseringer",
+        filter: ["!", ["has", "point_count"]],
+        minzoom: POINTS_MIN_ZOOM,
+        paint: {
+          "circle-radius": 14,   // juster 10–18 etter smak
+          "circle-color": "#000",
+          "circle-opacity": 0
+        }
+      });
+
+      // 8) Enkeltpunkter som ikon (det du SER)
       map.addLayer({
         id: "unclustered-point",
         type: "symbol",
@@ -250,7 +264,6 @@
             n++;
           }
 
-          // fallback hvis alt ble filtrert bort
           if (!n || b.isEmpty()) {
             map.easeTo({
               center: features[0].geometry.coordinates,
@@ -272,7 +285,7 @@
       map.on("mouseenter", "clusters", () => (map.getCanvas().style.cursor = "pointer"));
       map.on("mouseleave", "clusters", () => (map.getCanvas().style.cursor = ""));
 
-      // Hover popup på enkeltpunkter
+      // Hover popup – bind til unclustered-hit (stabilt, ingen blinking)
       let popup = null;
 
       function resolveLabel(props) {
@@ -287,7 +300,7 @@
         return "";
       }
 
-      map.on("mouseenter", "unclustered-point", (e) => {
+      map.on("mouseenter", "unclustered-hit", (e) => {
         map.getCanvas().style.cursor = "pointer";
         const f = e.features && e.features[0];
         if (!f) return;
@@ -309,13 +322,13 @@
 
         el.append(t, s);
 
-        popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
+        popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false, offset: 18 })
           .setLngLat(coords)
           .setDOMContent(el)
           .addTo(map);
       });
 
-      map.on("mouseleave", "unclustered-point", () => {
+      map.on("mouseleave", "unclustered-hit", () => {
         map.getCanvas().style.cursor = "";
         if (popup) popup.remove();
         popup = null;
